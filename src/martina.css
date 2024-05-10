@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap');
+
 :root{
     --backgroundColor: #1C1C1C;
     --primaryColor: #15A97D;
@@ -5,6 +9,123 @@
     --TerciaryColor: #fff;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-snap-type: y mandatory;
+}
+
 body{
     background-color: var(--backgroundColor);
+    color: var(--TerciaryColor);
+    overflow-x: hidden;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    scroll-snap-align: center;
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 100px;
+    overflow-x: hidden;
+}
+
+div{
+    margin: 5vw 0;
+}
+
+img{
+    height: 30vw;
+    width: auto;
+}
+
+p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: "Inter", sans-serif;
+    width: 400px;
+}
+
+.startingDiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.primaryText{
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+.initial{
+    color: var(--primaryColor);
+}
+
+.initialSubtext{
+    font-family: "Lovers Quarrel", cursive;
+    font-size: 3rem;
+}
+
+.introduction{
+    font-size: 0.8rem;
+}
+
+.poem{
+    justify-content: center;
+    line-height: 20pt;
+}
+
+.author{
+    margin-top: 50px;
+    text-align: end;
+    font-size: 0.8rem;
+}
+
+.author strong{
+    color: var(--primaryColor);
+}
+
+.reveal{
+    position: relative;
+    opacity: 0;
+    transition: 2s all ease;
+}
+  
+.reveal.active{
+    opacity: 1;
+}
+
+@media (max-width: 600px) {
+    img{
+        width: 100vw;
+        height: auto;
+    }
+
+    .startingDiv{
+        height: 100%;
+        justify-content: center;
+    }
+
+    p{
+        width: 90vw;
+    }
+
+    section{
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .sentence{
+        position: absolute;
+        top: 65%;
+    }
 }
