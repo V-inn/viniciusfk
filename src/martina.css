@@ -34,6 +34,7 @@ section{
     width: 100%;
     margin-bottom: 100px;
     overflow-x: hidden;
+    position: relative;
 }
 
 div{
@@ -94,6 +95,27 @@ p{
     color: var(--primaryColor);
 }
 
+.finalSection{
+    flex-direction: column;
+    justify-content: center;
+    z-index: 5;
+}
+
+.finalSection img{
+    margin-top: -50px;
+    height: 200px;
+    padding-bottom: 50px;
+    width: auto;
+    opacity: 1;
+}
+
+.thankYou{
+    font-family: "Lovers Quarrel", cursive;
+    width: auto;
+    font-size: 6rem;
+    padding-top: 30px;
+}
+
 .reveal{
     position: relative;
     opacity: 0;
@@ -127,5 +149,9 @@ p{
     .sentence{
         position: absolute;
         top: 65%;
+    }
+
+    .thankYou{
+        font-size: 4rem;
     }
 }
