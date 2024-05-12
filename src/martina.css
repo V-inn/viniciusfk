@@ -117,7 +117,6 @@ p{
 }
 
 .reveal{
-    position: relative;
     opacity: 0;
     transition: 2s all ease;
 }
