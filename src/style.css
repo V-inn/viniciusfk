@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@400..700&display=swap');
+
+:root{
+    --default_black: #171717;
+    --default_white: #fcfcfc;
+    --primary_color: #155263;
+    --secondary_color: #FF6F3C; 
+    --tertiary_color: #FF9A3C;
+    --quaternary_color: #FFC93C;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    height: 100%;
+    width: auto;
+    display: flex;
+    color: var(--default_black);
+}
+
+.header_section{
+    position: relative;
+    height: 100%;
+    min-width: 50px;
+    width: 4%;
+    background-color: var(--secondary_color);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header_section button{
+    background: transparent;
+    border: none;
+    aspect-ratio: 1 / 1;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header_section img{
+    min-width: 20px;
+    width: 50%;
+    aspect-ratio: 1 / 1;
+}
+
+.header_section button:hover{
+    background: var(--tertiary_color);
+}
+
+img.profile_image{
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    width: 90%;
+    object-fit: cover;
+    margin: 5%;
+}
+
+.body_section{
+    overflow-y: scroll;
+    width: 100%;
+    height: 100%;
+}
+
+.body_section section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introduction_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.introduction img.profile_image{
+    min-width: 200px;
+    width: 25%;
+    aspect-ratio: 1 / 1;
+}
+
+.introduction h1{
+    font-family: "Anton", sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.introduction p{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+}
+
+.introduction_socials{
+    display: flex;
+    align-items: center;
+
+    margin-top: 40px;
+}
+
+.introduction_socials img{
+    aspect-ratio: 1 / 1;
+    width: 40px;
+}
+
+.introduction_socials a{
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    color: var(--default_black);
+    margin-right: 35px;
+}
+
+.introduction_socials a p{
+    font-size: 1.2rem;
+}
+
+hr{
+    width: 90%;
+    height: 3px;
+
+    margin: 100px 0;
+    border: none;
+    background-color: var(--default_black);
+    opacity: 0.9;
+}
+
+.introduction_aboutme{
+    width: 90%;
+}
+.introduction_aboutme h2{
+    font-size: 3rem;
+    font-family: "Anton", sans-serif;
+    margin-bottom: 50px;
+}
+
+.introduction_aboutme p{
+    margin-bottom: 10px;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 600px) {
+    .header_section{
+        min-width: 50px;
+    }
+
+    .introduction_header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .introduction h1{
+        font-family: "Anton", sans-serif;
+        font-weight: 700;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    .introduction p{
+        font-family: "Roboto", sans-serif;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .introduction_socials{
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+
+    .introduction_socials a{
+        margin-right: 0;
+    }
+
+    .introduction_socials a p{
+        font-size: 0.8rem;
+    }
+
+    .introduction_socials img{
+        width: 30px;
+    }
+
+    hr{
+        margin: 50px 0;
+    }
+
+    .introduction_aboutme h2{
+        font-size: 1.8rem;
+        font-family: "Anton", sans-serif;
+        margin-bottom: 30px;
+    }
+
+    .introduction_aboutme p{
+        text-align: justify;
+    }
+}
