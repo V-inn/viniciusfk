@@ -1,6 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@400..700&display=swap');
+@font-face {
+    font-family: "Roboto";
+    font-weight: normal;
+    src:
+        local("Roboto"),
+        url("../src/fonts/Roboto-Regular.ttf") format("truetype");
+}
 
+@font-face {
+    font-family: "Anton";
+    font-weight: normal;
+    src:
+        local("Roboto"),
+        url("../src/fonts/Anton-Regular.ttf") format("truetype");
+}
+  
 :root{
     --default_black: #171717;
     --default_white: #fcfcfc;
@@ -55,6 +68,11 @@ body{
     min-width: 20px;
     width: 50%;
     aspect-ratio: 1 / 1;
+}
+
+.translate_icon{
+    position: absolute;
+    bottom: 0;
 }
 
 .header_section button:hover{
