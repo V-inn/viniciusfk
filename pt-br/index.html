@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="public, max-age=600">
     <script defer src="../src/main.js"></script>
     <link rel="stylesheet" href="../src/style.css">
     <title>Vinicius F Kern</title>
@@ -10,28 +11,28 @@
 </head>
 <body>
     <nav class="header_section">
-        <button onclick="document.getElementById('introduction').scrollIntoView();"><img src="../src/imgs/main/person.svg"></button>
-        <button onclick=""><img src="../src/imgs/main/code.svg"></button>
-        <button onclick=""><img src="../src/imgs/main/work.svg"></button>
-        <button onclick=""><img src="../src/imgs/main/projects.svg"></button>
-        <button onclick=""><img src="../src/imgs/main/badge.svg"></button>
-        <button onclick=""><img src="../src/imgs/main/contact.svg"></button>
-        <button class="translate_icon" onclick="window.location='../en/'"><img src="../src/imgs/main/flag-us.svg"></button>
+        <button aria-label="Ir para introdução" onclick="document.getElementById('introduction').scrollIntoView();"><img alt="Introdução" src="../src/imgs/main/person.svg"></button>
+        <button aria-label="Ir para Code Stacks" onclick=""><img alt="Setas de código" src="../src/imgs/main/code.svg"></button>
+        <button aria-label="Ir para experiencia de trabalho" onclick=""><img alt="trabalho" src="../src/imgs/main/work.svg"></button>
+        <button aria-label="Ir para projetos" onclick=""><img alt="projetos" src="../src/imgs/main/projects.svg"></button>
+        <button aria-label="Ir para prêmios" onclick=""><img alt="prêmios" src="../src/imgs/main/badge.svg"></button>
+        <button aria-label="Ir para contato" onclick=""><img alt="contato" src="../src/imgs/main/contact.svg"></button>
+        <button aria-label="View in English" class="translate_icon" onclick="window.location='../en/'"><img alt="United States Flag" src="../src/imgs/main/flag-us.svg"></button>
     </nav>
     <section class="body_section">
         <section class="introduction" id="introduction">
             <div class="introduction_header">
-                <img class="profile_image" src="../src/imgs/main/profile.avif">
+                <img alt="Image of Vinícius Flesch Kern" class="profile_image" src="../src/imgs/main/profile.avif">
                 <div>
                     <h1>Vinícius Flesch Kern</h1>
                     <p>Desenvolvedor Fullstack</p>
                     <div class="introduction_socials">
                         <a href="https://www.linkedin.com/in/vinicius-flesch-kern/" target="_blank">
-                            <img src="../src/imgs/main/linkedin.svg">
+                            <img alt="Linkedin icon" src="../src/imgs/main/linkedin.svg">
                             <p>Linkedin</p>
                         </a>
                         <a href="https://github.com/V-inn" target="_blank">
-                            <img src="../src/imgs/main/github.svg">
+                            <img alt="Github icon" src="../src/imgs/main/github.svg">
                             <p>Github</p>
                         </a>
                     </div>
