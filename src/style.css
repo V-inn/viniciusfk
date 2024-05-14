@@ -4,6 +4,8 @@
     src:
         local("Roboto"),
         url("../src/fonts/Roboto-Regular.ttf") format("truetype");
+        
+    font-display: swap;
 }
 
 @font-face {
@@ -12,6 +14,8 @@
     src:
         local("Roboto"),
         url("../src/fonts/Anton-Regular.ttf") format("truetype");
+
+    font-display: swap;
 }
   
 :root{
@@ -85,6 +89,13 @@ img.profile_image{
     width: 90%;
     object-fit: cover;
     margin: 5%;
+    size: 768px;
+}
+
+@media(max-width: 1920px){
+    img.profile_image{
+        size: 654px;
+    }
 }
 
 .body_section{
@@ -182,6 +193,10 @@ hr{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+
+    img.profile_image{
+        size: 400px;
     }
 
     .introduction h1{
