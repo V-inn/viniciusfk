@@ -1,0 +1,253 @@
+@font-face {
+    font-family: "Roboto";
+    font-weight: normal;
+    src:
+        local("Roboto"),
+        url("../fonts/Roboto-Regular.ttf") format("truetype");
+        
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Anton";
+    font-weight: normal;
+    src:
+        local("Anton"),
+        url("../fonts/Anton-Regular.ttf") format("truetype");
+
+    font-display: swap;
+}
+  
+:root{
+    --default_black: #171717;
+    --default_white: #fcfcfc;
+    --primary_color: #a8a8a8;
+    --secondary_color: #FF6F3C; 
+    --tertiary_color: #FF9A3C;
+    --quaternary_color: #d1d1d1;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    height: 100%;
+    width: auto;
+    display: flex;
+    color: var(--default_black);
+}
+
+h1{
+    font-family: "Anton", sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3rem;
+    font-family: "Anton", sans-serif;
+    margin-bottom: 50px;
+}
+
+h3{
+    font-family: "Anton", sans-serif;
+    font-size: 2rem;
+    padding: 10px 0;
+    color: var(--secondary_color);
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+}
+
+hr{
+    width: 90%;
+    height: 3px;
+
+    margin: 100px 0;
+    border: none;
+    background-color: var(--default_black);
+    opacity: 0.9;
+}
+
+.header_section{
+    position: relative;
+    height: 100%;
+    min-width: 50px;
+    width: 4%;
+    background-color: var(--secondary_color);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header_section button{
+    background: transparent;
+    border: none;
+    aspect-ratio: 1 / 1;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header_section img{
+    min-width: 20px;
+    width: 50%;
+    aspect-ratio: 1 / 1;
+}
+
+.header_section button.translate_icon{
+    position: absolute;
+    bottom: 0;
+}
+
+.header_section button:hover{
+    background: var(--tertiary_color);
+}
+
+img.profile_image{
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    min-width: 200px;
+    width: 25%;
+    object-fit: cover;
+    margin: 5%;
+    size: 768px;
+}
+
+.body_section{
+    overflow-y: scroll;
+    width: 100%;
+    height: 100%;
+}
+
+.body_section section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.introduction{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introduction_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.introduction_socials{
+    display: flex;
+    align-items: center;
+
+    margin-top: 40px;
+}
+
+.introduction_socials img{
+    aspect-ratio: 1 / 1;
+    width: 40px;
+}
+
+.introduction_socials a{
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    color: var(--default_black);
+    margin-right: 35px;
+}
+
+.introduction_socials a p{
+    font-size: 1.2rem;
+}
+
+.content_div{
+    width: 90%;
+}
+
+.content_div p{
+    margin-bottom: 10px;
+    text-align: justify;
+    font-size: 1.6rem;
+}
+
+.stack_icons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 4px 4px 0 0;
+    border: solid;
+    border-color: var(--quaternary_color);
+    border-width: 3px;
+    border-bottom-width: 2px;
+    overflow-x: scroll;
+}
+
+.stack_icons img{
+    aspect-ratio: 1/1;
+    width: 100%;
+}
+
+.stack_icons button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    aspect-ratio: 1/0.7;
+    padding: 40px;
+    background: transparent;
+    border: none;
+}
+
+.stack_icons button:hover{
+    background-color: var(--quaternary_color);
+}
+
+.content_display{
+    width: 100%;
+    min-height: 200px;
+    border-radius: 0 0 4px 4px;
+    border: solid;
+    border-top: none;
+    border-color: var(--quaternary_color);
+    border-width: 3px;
+    display: flex;
+}
+
+.content_display div{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: relative;
+}
+
+.content_display p{
+    width: 100%;
+    font-size: 1.4rem;
+}
+
+.invisible{
+    display: none;
+}
+
+@media(max-width: 1920px){
+    img.profile_image{
+        size: 654px;
+    }
+}

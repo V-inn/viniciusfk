@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Cache-Control" content="public, max-age=600">
+    <meta http-equiv="Cache-Control" content="public, max-age=1000">
+    <meta name="description" content="Desenvolvedor Fullstack com foco em Java Spring e Web">
     <script defer src="../src/main.js"></script>
-    <link rel="stylesheet" href="../src/style.css">
-    <title>Vinicius F Kern</title>
+    <script defer src="../src/js_main/stackSelect.js"></script>
+    <link rel="stylesheet" href="../src/style_main/style.css">
+    <link rel="stylesheet" media='screen and (max-width: 600px)' href="../src/style_main/mobileStyle.css">
+    <title>Vinicius Flesch Kern</title>
     <link rel="icon" href="../src/imgs/main/icon.svg" type="image/x-icon"/>
 </head>
 <body>
@@ -17,7 +20,7 @@
         <button aria-label="Ir para projetos" onclick=""><img alt="projetos" src="../src/imgs/main/projects.svg"></button>
         <button aria-label="Ir para prêmios" onclick=""><img alt="prêmios" src="../src/imgs/main/badge.svg"></button>
         <button aria-label="Ir para contato" onclick=""><img alt="contato" src="../src/imgs/main/contact.svg"></button>
-        <button aria-label="View in English" class="translate_icon" onclick="window.location='../en/'"><img alt="United States Flag" src="../src/imgs/main/flag-us.svg"></button>
+        <button aria-label="View in English" class="translate_icon" onclick="window.location='../en/'"><img alt="Bandeira dos Estados Unidos" src="../src/imgs/main/flag-us.svg"></button>
     </nav>
     <section class="body_section">
         <section class="introduction" id="introduction">
@@ -48,7 +51,7 @@
                 </div>
             </div>
             <hr>
-            <div class="introduction_aboutme">
+            <div class="content_div">
                 <h2>Sobre mim</h2>
                 <p>
                     Meu nome é Vinícius Flesch Kern, tenho 17 anos, sou aluno do Ensino Médio que adora programação, robôs e natureza!
@@ -67,11 +70,99 @@
                 </p>
             </div>
         </section>
-        <section>
-            
+        <section id="stack">
+            <hr>
+            <div class="content_div">
+                <h2>Work Stack</h2>
+                <div class="stack_icons">
+                    <button aria-label="Informações sobre HTML" onclick="defineVisibility(0)">
+                        <img alt="Html" src="../src/imgs/main/stack_icons/html.svg">
+                    </button>
+                    <button aria-label="Informações sobre CSS" onclick="defineVisibility(1)">
+                        <img alt="Css" src="../src/imgs/main/stack_icons/css-3.svg">
+                    </button>
+                    <button aria-label="Informações sobre Javascript" onclick="defineVisibility(2)">
+                        <img alt="javascript" src="../src/imgs/main/stack_icons/javascript.svg">
+                    </button>
+                    <button aria-label="Informações sobre Java" onclick="defineVisibility(3)">
+                        <img alt="java" src="../src/imgs/main/stack_icons/java.svg">
+                    </button>
+                    <button aria-label="Informações sobre Spring" onclick="defineVisibility(4)">
+                        <img alt="spring" src="../src/imgs/main/stack_icons/spring.svg">
+                    </button>
+                    <button aria-label="Informações sobre Docker" onclick="defineVisibility(5)">
+                        <img alt="docker" src="../src/imgs/main/stack_icons/docker.svg">
+                    </button>
+                    <button aria-label="Informações sobre PostgreSQL" onclick="defineVisibility(6)">
+                        <img alt="PostrgreSQL" src="../src/imgs/main/stack_icons/postgresql.svg">
+                    </button>
+                    <button aria-label="Informações sobre MySQL" onclick="defineVisibility(7)">
+                        <img alt="MySQL" src="../src/imgs/main/stack_icons/mysql.svg">
+                    </button>
+                    <button aria-label="Informações sobre Arduino" onclick="defineVisibility(8)">
+                        <img alt="Arduino" src="../src/imgs/main/stack_icons/arduino.svg">
+                    </button>
+                </div>
+                <div class="content_display" id="contentDisplay">
+                    <div class="">
+                        <h3>HTML</h3>
+                        <p>
+                            Capacidade de estruturar páginas de forma correta e eficiente, tornando-as facilmente estilizáveis através de CSS, propositais, e legíveis, fazendo uso de boas práticas, garantindo pequenos tempos de carregamento, além de acessibilidade.
+                        </p>
+                    </div>
+                    <div class="invisible">
+                        <h3>CSS</h3>
+                        <p>
+                            Design dinâmico de páginas de acordo com as proporções da tela, aliado ao uso eficiente de classes e organização de arquivos, conferindo às páginas uma ótima aparência em qualquer dispositivo.
+                        </p>
+                    </div>
+                    <div class="invisible">
+                        <h3>Javascript</h3>
+                        <p>
+                            Writting optimized client-side code for all purposes, ranging from even more stylization methods (such as parallax), full client web-applications, and secure http back-end integration.
+                        </p>
+                    </div>
+                    <div class="invisible">
+                        <h3>Java</h3>
+                        <p>
+                            Coding highly mantainable Java code, making efficient use of polymorphism and readable code. Aswell as writting secure back-end code for servers, preventing various types of attacks.
+                        </p>
+                    </div>
+                    <div class="invisible">
+                        <h3>Spring</h3>
+                        <p>
+                            Use of the spring framework for creating resilient RESTFul APIs for integration with web-apps.
+                        </p>
+                    </div>
+                    <div class="invisible">
+                        <h3>Docker</h3>
+                        <p>
+                            Creating and Dockerizing apps for fast and easy deployment on cloud, providing high service disponibility and on-demand scalability, aswell as avoiding unexpected results from running in different machines.
+                        </p>
+                    </div>
+                    <div class="invisible">
+                        <h3>PostgreSQL</h3>
+                        <p>
+                            Managing data in a secure and fast manner, allowing for great integration with docker.
+                        </p>
+                    </div>
+                    <div class="invisible">
+                        <h3>MySQL</h3>
+                        <p>
+                            Managing data on the most widely used SQL database management system.
+                        </p>
+                    </div>
+                    <div class="invisible">
+                        <h3>Arduino</h3>
+                        <p>
+                            Creating custom hardware projects with optimized firmware based around Micro Controller Units such as Arduino and Esp, making possible automated systems and custom interfaces for various purposes, aswell as Internet of Things projects, for long range device to device communication.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </section>
         <section>
-            
+            <hr>
         </section>
         <section>
 

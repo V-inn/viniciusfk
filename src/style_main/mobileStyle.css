@@ -1,0 +1,76 @@
+@media (max-width: 600px) {
+    .header_section{
+        min-width: 50px;
+    }
+
+    .introduction_header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    img.profile_image{
+        size: 400px;
+    }
+
+    .introduction h1{
+        font-family: "Anton", sans-serif;
+        font-weight: 700;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    .introduction p{
+        font-family: "Roboto", sans-serif;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .introduction_socials{
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+
+    .introduction_socials a{
+        margin-right: 0;
+    }
+
+    .introduction_socials a p{
+        font-size: 0.8rem;
+    }
+
+    .introduction_socials img{
+        width: 30px;
+    }
+
+    hr{
+        margin: 50px 0;
+    }
+
+    h2{
+        font-size: 1.8rem;
+        font-family: "Anton", sans-serif;
+        margin-bottom: 30px;
+    }
+
+    .content_div p{
+        text-align: justify;
+    }
+
+    .stack_icons button{
+        width: 100%;
+    }
+
+    .stack_icons img{
+        width: 160%;
+    }
+
+    .content_display{
+        height: 300px;
+    }
+
+    .content_display p{
+        font-size: 1rem;
+    }
+}
