@@ -3,7 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <link rel="icon" href="src/imgs/main/icon.svg" type="image/x-icon"/>
+    <link rel="alternate" hreflang="en" href="https://www.viniciusfk.com/en/">
+    <link rel="alternate" hreflang="pt-br" href="https://www.viniciusfk.com/pt-br/">
     <title>Vinícius Flesch Kern</title>
-    <script src="src/redirect.js"></script>
+    <script>
+        window.onload = function() {
+            var userLang = navigator.language || navigator.userLanguage; 
+            if(userLang === "pt-BR") {
+                window.location.href = "/pt-br/";
+            } else {
+                window.location.href = "/en/";
+            }
+        }
+    </script>
 </head>
 </html>
