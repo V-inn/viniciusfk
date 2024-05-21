@@ -14,13 +14,14 @@
 </head>
 <body>
     <nav class="header_section">
+        <button aria-label="View in English" class="translate_icon" onclick="window.location='../en/'"><img alt="Bandeira dos Estados Unidos" src="../src/imgs/main/flag-us.svg"></button>
+        <hr>
         <button aria-label="Ir para introdução" onclick="document.getElementById('introduction').scrollIntoView();"><img alt="Introdução" src="../src/imgs/main/person.svg"></button>
         <button aria-label="Ir para Code Stacks" onclick="document.getElementById('stack').scrollIntoView();"><img alt="Setas de código" src="../src/imgs/main/code.svg"></button>
-        <button aria-label="Ir para experiencia de trabalho" onclick=""><img alt="trabalho" src="../src/imgs/main/work.svg"></button>
-        <button aria-label="Ir para projetos" onclick=""><img alt="projetos" src="../src/imgs/main/projects.svg"></button>
+        <button aria-label="Ir para experiencia de trabalho" onclick="document.getElementById('work').scrollIntoView();"><img alt="trabalho" src="../src/imgs/main/work.svg"></button>
+        <button aria-label="Ir para projetos" onclick="document.getElementById('projects').scrollIntoView();"><img alt="projetos" src="../src/imgs/main/projects.svg"></button>
         <button aria-label="Ir para prêmios" onclick=""><img alt="prêmios" src="../src/imgs/main/badge.svg"></button>
         <button aria-label="Ir para contato" onclick=""><img alt="contato" src="../src/imgs/main/contact.svg"></button>
-        <button aria-label="View in English" class="translate_icon" onclick="window.location='../en/'"><img alt="Bandeira dos Estados Unidos" src="../src/imgs/main/flag-us.svg"></button>
     </nav>
     <section class="body_section">
         <section class="introduction" id="introduction">
@@ -73,7 +74,7 @@
         <section id="stack">
             <hr>
             <div class="content_div">
-                <h2>Work Stack</h2>
+                <h2>Stack de Trabalho</h2>
                 <div class="stack_icons">
                     <button aria-label="Informações sobre HTML" onclick="defineVisibility(0)">
                         <img alt="Html" src="../src/imgs/main/stack_icons/html.svg">
@@ -119,56 +120,75 @@
                     <div class="invisible">
                         <h3>Javascript</h3>
                         <p>
-                            Writting optimized client-side code for all purposes, ranging from even more stylization methods (such as parallax), full client web-applications, and secure http back-end integration.
+                            Escrever código otimizado do lado do cliente para todos os propósitos, desde mais métodos de estilização (como paralaxe), até aplicativos web de cliente completos e integração segura de back-end via http.
                         </p>
                     </div>
                     <div class="invisible">
                         <h3>Java</h3>
                         <p>
-                            Coding highly mantainable Java code, making efficient use of polymorphism and readable code. Aswell as writting secure back-end code for servers, preventing various types of attacks.
+                            Programação de código Java altamente sustentável, fazendo uso eficiente de polimorfismo e código legível. Além de escrever código back-end seguro para servidores, evitando diversos tipos de ataques.
                         </p>
                     </div>
                     <div class="invisible">
                         <h3>Spring</h3>
                         <p>
-                            Use of the spring framework for creating resilient RESTFul APIs for integration with web-apps.
+                            Uso do framework Spring para criação de APIs RESTFul resilientes para integração com aplicativos web.
                         </p>
                     </div>
                     <div class="invisible">
                         <h3>Docker</h3>
                         <p>
-                            Creating and Dockerizing apps for fast and easy deployment on cloud, providing high service disponibility and on-demand scalability, aswell as avoiding unexpected results from running in different machines.
+                            Criação e Dockerização de apps para implantação rápida e fácil na nuvem, proporcionando alta disponibilidade de serviços e escalabilidade sob demanda, além de evitar resultados inesperados durante a execução em diferentes máquinas.
                         </p>
                     </div>
                     <div class="invisible">
                         <h3>PostgreSQL</h3>
                         <p>
-                            Managing data in a secure and fast manner, allowing for great integration with docker.
+                            Gerenciando dados de forma segura e rápida, permitindo ótima integração com Docker.
                         </p>
                     </div>
                     <div class="invisible">
                         <h3>MySQL</h3>
                         <p>
-                            Managing data on the most widely used SQL database management system.
+                            Gerenciando dados no sistema de gerenciamento de banco de dados SQL mais utilizado.
                         </p>
                     </div>
                     <div class="invisible">
                         <h3>Arduino</h3>
                         <p>
-                            Creating custom hardware projects with optimized firmware based around Micro Controller Units such as Arduino and Esp, making possible automated systems and custom interfaces for various purposes, aswell as Internet of Things projects, for long range device to device communication.
+                            Criação de projetos de hardware customizados baseados em unidades de microcontroladores como Arduino e Esp  criando também firmware otimizado, possibilitando sistemas automatizados e interfaces customizadas para diversos fins, bem como projetos de Internet das Coisas, para comunicação dispositivo a dispositivo de longo alcance.
                         </p>
                     </div>
                 </div>
             </div>
         </section>
+        <section id="work">
+            <hr>
+            <div class="content_div">
+                <h2>Emprego</h2>
+                <div>
+                    <h3>Estágio - Secretaria Municipal de Educação de Vale do Sol</h3>
+                    <p><strong>(Maio 2023 - Atualmente)</strong></p>
+                    <p><strong>Atividades: </strong>Tarefas de escritório; Instalação e operação de equipamentos de som; Pilotagem de drone.</p>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <hr>
+            <div class="content_div">
+                <h2>Projetos</h2>
+                <div class="project_div">
+                    <a href="./projetos/LittleGame.html">
+                        <img alt="">
+                        <h3>LittleGame</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
         <section>
             <hr>
-        </section>
-        <section>
-
-        </section>
-        <section>
-
+            <h2>((Site ainda em progresso))</h2>
+            <hr>
         </section>
     </section>
 </body>

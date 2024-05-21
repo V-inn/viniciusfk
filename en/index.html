@@ -14,13 +14,14 @@
 </head>
 <body>
     <nav class="header_section">
+        <button aria-label="Ver em Português" class="translate_icon" onclick="window.location='../pt-br/'"><img alt="Brazillian Flag" src="../src/imgs/main/flag-br.svg"></button>
+        <hr>
         <button aria-label="Go to Introduction" onclick="document.getElementById('introduction').scrollIntoView();"><img alt="Introduction" src="../src/imgs/main/person.svg"></button>
         <button aria-label="Go to Code Stacks" onclick="document.getElementById('stack').scrollIntoView();"><img alt="Code brackets" src="../src/imgs/main/code.svg"></button>
-        <button aria-label="Go to Work experience" onclick=""><img alt="Work suitcase" src="../src/imgs/main/work.svg"></button>
-        <button aria-label="Go to Projects" onclick=""><img alt="Book" src="../src/imgs/main/projects.svg"></button>
+        <button aria-label="Go to Work experience" onclick="document.getElementById('work').scrollIntoView();"><img alt="Work" src="../src/imgs/main/work.svg"></button>
+        <button aria-label="Go to Projects" onclick="document.getElementById('projects').scrollIntoView();"><img alt="Projects" src="../src/imgs/main/projects.svg"></button>
         <button aria-label="Go to Awards" onclick=""><img alt="Awards" src="../src/imgs/main/badge.svg"></button>
         <button aria-label="Go to Contact" onclick=""><img alt="Contact" src="../src/imgs/main/contact.svg"></button>
-        <button aria-label="Ver em Português" class="translate_icon" onclick="window.location='../pt-br/'"><img alt="Brazillian Flag" src="../src/imgs/main/flag-br.svg"></button>
     </nav>
     <section class="body_section">
         <section class="introduction" id="introduction">
@@ -34,6 +35,7 @@
                     "
                     src="../src/imgs/main/profile768w.avif"
                 >
+
                 <div>
                     <h1>Vinícius Flesch Kern</h1>
                     <p>Fullstack Developer</p>
@@ -118,7 +120,7 @@
                     <div class="invisible">
                         <h3>Javascript</h3>
                         <p>
-                            Writting optimized client-side code for all purposes, ranging from even more stylization methods (such as parallax), full client web-applications, and secure http back-end integration.
+                            Writting optimized client-side code for all purposes, ranging from even more stylization methods (such as parallax), to full client web-applications, and secure http back-end integration.
                         </p>
                     </div>
                     <div class="invisible">
@@ -160,14 +162,33 @@
                 </div>
             </div>
         </section>
+        <section id="work">
+            <hr>
+            <div class="content_div">
+                <h2>Emprego</h2>
+                <div>
+                    <h3>Internship - Secretary of education of Vale do Sol, Rio grande do Sul - BR</h3>
+                    <p><strong>(May 2023 - Currently)</strong></p>
+                    <p><strong>Activities: </strong>Office tasks; Installation and operation of sound equipment; Drone piloting.</p>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <hr>
+            <div class="content_div">
+                <h2>Projects</h2>
+                <div class="project_div">
+                    <a href="./projects/LittleGame.html">
+                        <img alt="">
+                        <h3>LittleGame</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
         <section>
             <hr>
-        </section>
-        <section>
-
-        </section>
-        <section>
-
+            <h2>((Site still in progress))</h2>
+            <hr>
         </section>
     </section>
 </body>
