@@ -121,7 +121,7 @@ hr{
     background: var(--tertiary_color);
 }
 
-img.profile_image{
+.profile_image{
     border-radius: 50%;
     aspect-ratio: 1 / 1;
     min-width: 200px;
@@ -129,6 +129,25 @@ img.profile_image{
     object-fit: cover;
     margin: 5%;
     size: 768px;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    color: var(--default_black);
+    margin-right: 35px;
+}
+
+.socials img{
+    aspect-ratio: 1 / 1;
+    height: 40px;
+    width: 40px;
+}
+
+.socials p{
+    font-size: 1.2rem;
 }
 
 .body_section{
@@ -162,23 +181,6 @@ section.introduction{
     align-items: center;
 
     margin-top: 40px;
-}
-
-.introduction_socials img{
-    aspect-ratio: 1 / 1;
-    width: 40px;
-}
-
-a{
-    display: flex;
-    align-items: center;
-    text-decoration: underline;
-    color: var(--default_black);
-    margin-right: 35px;
-}
-
-.introduction_socials a p{
-    font-size: 1.2rem;
 }
 
 .content_div{
@@ -244,6 +246,44 @@ a{
 .content_display p{
     width: 100%;
     font-size: 1.4rem;
+}
+
+.project_div{
+    overflow-x: scroll;
+    display: flex;
+}
+
+.project_div a{
+    width: 32%;
+    aspect-ratio: 1/1.2;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primary_color);
+    text-decoration: none;
+    margin: 0 1%;
+}
+
+.project_description{
+    color: var(--default_black);
+    width: 90%;
+    height: 150px;
+    text-align: start;
+}
+
+.project_image{
+    width: 90%;
+    aspect-ratio: 1/0.6;
+    border-radius: 10px;
+    position: relative;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.project_link{
+    width: 70px;
+    height: 70px;
 }
 
 .invisible{
