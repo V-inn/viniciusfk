@@ -78,4 +78,18 @@
     .content_display p{
         font-size: 1rem;
     }
+
+    .project_div{
+        height: 450px;
+    }
+
+    .project_div a{
+        min-width: 90%;
+        height: 85%;
+    }
+
+    .project_link{
+        width: 40px;
+        height: 40px;
+    }
 }
