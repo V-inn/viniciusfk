@@ -80,16 +80,33 @@
     }
 
     .project_div{
-        height: 450px;
+        height: 550px;
     }
 
     .project_div a{
         min-width: 90%;
-        height: 85%;
+        min-height: 500px;
     }
 
     .project_link{
         width: 40px;
         height: 40px;
+    }
+
+    section.footer{
+        padding: 0;
+    
+    }
+
+    .info_field img{
+        width: 1.2rem;
+    }
+
+    .info_field h3{
+        font-size: 0.9rem;
+    }
+
+    .info_field p{
+        font-size: 0.9rem;
     }
 }
