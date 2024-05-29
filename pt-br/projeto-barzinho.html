@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Vendas</title>
+    <link rel="stylesheet" href="../src/projeto-barzinho/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script defer src="../src/projeto-barzinho/main.js"></script>
+</head>
+<body>
+    <header class="top">
+        <div class="top_values">
+            <div class="valorArrecadado">
+                <p>Valor arrecadado: R$</p>
+                <p id="valorArrecadado">0.00</p>
+            </div>
+            <div class="valorAdicional">
+                <p>+</p>
+                <p id="valorAdicional">0.00</p>
+            </div>
+            
+        </div>
+        
+        <button onclick="limpar()" class="limpar">
+            <span class="material-symbols-outlined">delete_forever</span>
+        </button>
+    </header>
+    <div class="calculate_button" id="calculateButton"></div>
+    <main>
+        <section class="itens">
+            <div>
+                <button onclick="brigadeiroClick()">
+                    <img src="../src/imgs/projeto-barzinho/brigadeiro.jpg" alt="brigadeiro">
+                    <div class="valores_itens">
+                        <p>R$1,00</p>
+                        <p id="brigadeiro_quantity">0</p>
+                        <p class="nova_quantidade" id="new_brigadeiro_quantity">0</p>
+                    </div>
+                </button>
+            </div>
+            <div>
+                <button onclick="pizzaClick()">
+                    <img src="../src/imgs/projeto-barzinho/pizza.jpg" alt="pizza">
+                    <div class="valores_itens">
+                        <p>R$2,50</p>
+                        <p id="pizza_quantity">0</p>
+                        <p class="nova_quantidade" id="new_pizza_quantity">0</p>
+                    </div>
+                </button> 
+            </div>
+            <div class="">
+                <button onclick="sucoClick()">
+                    <img src="../src/imgs/projeto-barzinho/suco.jpg" alt="suco">
+                    <div class="valores_itens">
+                        <p>R$2,50</p>
+                        <p id="suco_quantity">0</p>
+                        <p class="nova_quantidade" id="new_suco_quantity">0</p>
+                    </div>
+                </button> 
+            </div>
+            <div class="">
+                <button onclick="donutClick()">
+                    <img src="../src/imgs/projeto-barzinho/donut.png" alt="donut">
+                    <div class="valores_itens">
+                        <p>R$2,00</p>
+                        <p id="donut_quantity">0</p>
+                        <p class="nova_quantidade" id="new_donut_quantity">0</p>
+                    </div>
+                </button> 
+            </div>
+            <div class="invisible">
+                <button onclick="boloClick()">
+                    <img src="../src/imgs/projeto-barzinho/bolo.jpg" alt="bolo">
+                    <div class="valores_itens">
+                        <p>R$3,00</p>
+                        <p id="bolo_quantity">0</p>
+                        <p class="nova_quantidade" id="new_bolo_quantity">0</p>
+                    </div>
+                </button>
+            </div>
+            <div class="">
+                <button onclick="paoClick()">
+                    <img src="../src/imgs/projeto-barzinho/pao.jpg" alt="pao">
+                    <div class="valores_itens">
+                        <p>R$2,00</p>
+                        <p id="pao_quantity">0</p>
+                        <p class="nova_quantidade" id="new_pao_quantity">0</p>
+                    </div>
+                </button>
+            </div>
+            <div class="">
+                <button onclick="sucoGrandeClick()">
+                    <img src="../src/imgs/projeto-barzinho/suco-grande.avif" alt="sucoGrande">
+                    <div class="valores_itens">
+                        <p>R$8,00</p>
+                        <p id="sucoGrande_quantity">0</p>
+                        <p class="nova_quantidade" id="new_sucoGrande_quantity">0</p>
+                    </div>
+                </button>
+            </div>
+            <div class="">
+                <button onclick="cafeClick()">
+                    <img src="../src/imgs/projeto-barzinho/cafe.png" alt="cafe">
+                    <div class="valores_itens">
+                        <p>R$1,00</p>
+                        <p id="cafe_quantity">0</p>
+                        <p class="nova_quantidade" id="new_cafe_quantity">0</p>
+                    </div>
+                </button>
+            </div>
+        </section>
+
+        <div class="botoesAcao invisible" id="botoesAcao">
+            <div class="adicionar">
+                <button onclick="adicionarClick()">
+                    <span class="material-symbols-outlined">check</span>
+                </button>
+            </div>
+
+            <div class="cancelar">
+                <button onclick="cancelarClick()">
+                    <span class="material-symbols-outlined">delete</span>
+                </button>
+            </div>
+        </div>
+        
+    </main>
+</body>
+</html>

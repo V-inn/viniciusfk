@@ -20,8 +20,8 @@
         <button aria-label="Ir para Code Stacks" onclick="document.getElementById('stack').scrollIntoView();"><img alt="Setas de código" src="../src/imgs/main/code.svg"></button>
         <button aria-label="Ir para experiencia de trabalho" onclick="document.getElementById('work').scrollIntoView();"><img alt="trabalho" src="../src/imgs/main/work.svg"></button>
         <button aria-label="Ir para projetos" onclick="document.getElementById('projects').scrollIntoView();"><img alt="projetos" src="../src/imgs/main/projects.svg"></button>
-        <button aria-label="Ir para prêmios" onclick=""><img alt="prêmios" src="../src/imgs/main/badge.svg"></button>
-        <button aria-label="Ir para contato" onclick=""><img alt="contato" src="../src/imgs/main/contact.svg"></button>
+        <button aria-label="Ir para prêmios" onclick="document.getElementById('awards').scrollIntoView();"><img alt="prêmios" src="../src/imgs/main/badge.svg"></button>
+        <button aria-label="Ir para contato" onclick="document.getElementById('contact').scrollIntoView();"><img alt="contato" src="../src/imgs/main/contact.svg"></button>
     </nav>
     <section class="body_section">
         <section class="introduction" id="introduction">
@@ -40,18 +40,17 @@
                     <h1>Vinícius Flesch Kern</h1>
                     <p>Desenvolvedor Fullstack</p>
                     <div class="introduction_socials">
-                        <a href="https://www.linkedin.com/in/vinicius-flesch-kern/" target="_blank">
+                        <a href="https://www.linkedin.com/in/vinicius-flesch-kern/" target="_blank" class="socials">
                             <img alt="Linkedin icon" src="../src/imgs/main/linkedin.svg">
                             <p>Linkedin</p>
                         </a>
-                        <a href="https://github.com/V-inn" target="_blank">
+                        <a href="https://github.com/V-inn" target="_blank" class="socials">
                             <img alt="Github icon" src="../src/imgs/main/github.svg">
                             <p>Github</p>
                         </a>
                     </div>
                 </div>
             </div>
-            <hr>
             <div class="content_div">
                 <h2>Sobre mim</h2>
                 <p>
@@ -178,17 +177,83 @@
             <div class="content_div">
                 <h2>Projetos</h2>
                 <div class="project_div">
-                    <a href="./projetos/LittleGame.html">
-                        <img alt="">
+                    <a href="https://github.com/V-inn/ESP-32-Tft-Display-Little-game" target="_blank">
+                        <img class="project_image" alt="Circuito com uma placa eletrônica e uma tela pequena" src="../src/imgs/projects/LittleGame380x250.avif">
                         <h3>LittleGame</h3>
+                        <p class="project_description">Mini console baseado no micro controlador esp-32 e um display lcd tft.</p>
+                        <img class="project_link" alt="Github icon" src="../src/imgs/main/github.svg">
+                    </a>
+                    <!--
+                    <a href="" target="_blank">
+                        <img class="project_image" alt="Placeholder" src="../src/imgs/main/placeholder_Image.svg">
+                        <h3>Placeholder</h3>
+                        <p class="project_description">Placeholder</p>
+                        <img class="project_link" alt="Github icon" src="../src/imgs/main/placeholder_Image.svg"">
+                    </a>
+                    <a href="" target="_blank">
+                        <img class="project_image" alt="Placeholder" src="../src/imgs/main/placeholder_Image.svg"">
+                        <h3>Placeholder</h3>
+                        <p class="project_description">Placeholder</p>
+                        <img class="project_link" alt="Github icon" src="../src/imgs/main/placeholder_Image.svg"">
+                    </a>
+                    <a href="" target="_blank">
+                        <img class="project_image" alt="Placeholder" src="../src/imgs/main/placeholder_Image.svg"">
+                        <h3>Placeholder</h3>
+                        <p class="project_description">Placeholder</p>
+                        <img class="project_link" alt="Github icon" src="../src/imgs/main/placeholder_Image.svg"">
+                    </a> -->
+                </div>
+            </div>
+        </section>
+        <section id="awards">
+            <hr>
+            <div class="content_div">
+                <h2>Prêmios</h2>
+                <div class="awards_div">
+                    <a class="award" href="https://premiacao.obmep.org.br/18obmep/verRelatorioPremiadosBronze.do.htm" target="_blank">
+                        <img src="../src/imgs/main/awards/obmep2023.png" alt="logo obmep 2023">
+                        <p>Medalha de Bronze Nacional na 18º Olimpiada Brasileira de Matemática das Escolas Públicas</p>
+                    </a>
+                    <a class="award" href="https://premiacao.obmep.org.br/17obmep/verRelatorioPremiadosMencao-RS.3.do.htm" target="_blank">
+                        <img src="../src/imgs/main/awards/obmep2022.png" alt="logo obmep 2022">
+                        <p>Certificado de menção honrosa na 17º Olimpiada Brasileira de Matemática das Escolas Públicas</p>
+                    </a>
+                    <a class="award" href="https://www.cmvs.rs.gov.br/noticia/homenagem-aos-alunos-destaques-do-ano-2021-10239" target="_blank">
+                        <img src="../src/imgs/main/awards/vale_do_sol.jpg" alt="brasão vale do sol">
+                        <p>Prêmio de aluno destaque 2021</p>
+                    </a>
+                    <a class="award" href="https://premiacao.obmep.org.br/16aobmep/verRelatorioPremiadosMencao-RS.2.do.htm" target="_blank">
+                        <img src="../src/imgs/main/awards/obmep2021.png" alt="logo obmep 2021">
+                        <p>Certificado de menção honrosa na 16º Olimpiada Brasileira de Matemática das Escolas Públicas</p>
                     </a>
                 </div>
             </div>
         </section>
         <section>
             <hr>
-            <h2>((Site ainda em progresso))</h2>
+            <p>((Site ainda em progresso))</p>
             <hr>
+        </section>
+        <section id="contact" class="footer">
+            <h2>Informações de contato</h2>
+            <div class="info">
+                <div class="info_field">
+                    <div>
+                        <h3>Whatsapp&nbsp;</h3>
+                        <img alt="whatsapp" src="../src/imgs/main/whatsapp.svg">
+                    </div>
+                    <p>+55 (51) 99550-4744</p>
+                </div>
+                <div class="info_field">
+                    <div>
+                        <h3>E-mail&nbsp;</h3>
+                        <img alt="email" src="../src/imgs/main/contact.svg">
+                    </div>
+                    <p>viniciusflesch1@gmail.com</p>
+                    <p>contato@viniciusfk.com</p>
+                </div>
+            </div>
+            <p class="copyrightNotice">Vinícius Flesch Kern &copy; 2024, Todos os direitos reservados</p>
         </section>
     </section>
 </body>
