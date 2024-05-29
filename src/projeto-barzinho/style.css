@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --header-height: 60px;
+    --new-value-color: rgb(52, 119, 0);
+}
+
+body{
+    width: 100vw;
+    height: 100vw;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header{
+    display: flex;
+    height: var(--header-height);
+    background-color: rgb(218, 218, 218);
+    border-color: rgb(155, 155, 155);
+    border-width: 2px;
+    border-style: solid;
+    font-size: 1.4rem;
+}
+
+.limpar{
+    height: 100%;
+    width: var(--header-height);
+
+    border-style: solid;
+    border-color: rgb(151, 14, 14);
+
+    right: 0px;
+
+    background-color: rgb(211, 83, 83);
+}
+
+header p{
+    margin: 0 1%;
+}
+
+.top_values{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.valorArrecadado{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.valorAdicional{
+    display: flex;
+    width: 20%;
+    color: var(--new-value-color);
+}
+
+.itens{
+    display: flex;
+    flex-direction: column;
+}
+
+.itens div{
+    height: 100px;
+    width: 100%;
+
+    border-color: darkgrey;
+    border-width: 2px;
+    border-style: hidden;
+    border-bottom-style: solid;
+}
+
+.valores_itens{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nova_quantidade{
+    color: var(--new-value-color);
+}
+
+.itens button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+    border-style: hidden;
+}
+
+.itens img{
+    height: 100%;
+    width: auto;
+}
+
+.itens p{
+    font-size: 1.5rem;
+}
+
+.botoesAcao{
+    margin: 40px 15vw;
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.botoesAcao button{
+    height: 60px;
+    width: 120px;
+    
+    border-radius: 2px;
+    border-style: hidden;
+
+    font-size: 2rem;
+}
+
+.adicionar button{
+    background-color: var(--new-value-color);
+
+}
+
+.cancelar button{
+    background-color: rgb(206, 73, 50);
+}
+
+.invisible{
+    display: none;
+}

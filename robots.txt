@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: /src/martina
 Disallow: /martina.html
+Disallow: /pt-br/projeto-barzinho.html

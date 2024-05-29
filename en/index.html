@@ -20,8 +20,8 @@
         <button aria-label="Go to Code Stacks" onclick="document.getElementById('stack').scrollIntoView();"><img alt="Code brackets" src="../src/imgs/main/code.svg"></button>
         <button aria-label="Go to Work experience" onclick="document.getElementById('work').scrollIntoView();"><img alt="Work" src="../src/imgs/main/work.svg"></button>
         <button aria-label="Go to Projects" onclick="document.getElementById('projects').scrollIntoView();"><img alt="Projects" src="../src/imgs/main/projects.svg"></button>
-        <button aria-label="Go to Awards" onclick=""><img alt="Awards" src="../src/imgs/main/badge.svg"></button>
-        <button aria-label="Go to Contact" onclick=""><img alt="Contact" src="../src/imgs/main/contact.svg"></button>
+        <button aria-label="Go to Awards" onclick="document.getElementById('awards').scrollIntoView();"><img alt="Awards" src="../src/imgs/main/badge.svg"></button>
+        <button aria-label="Go to Contact" onclick="document.getElementById('contact').scrollIntoView();"><img alt="Contact" src="../src/imgs/main/contact.svg"></button>
     </nav>
     <section class="body_section">
         <section class="introduction" id="introduction">
@@ -40,18 +40,17 @@
                     <h1>Vinícius Flesch Kern</h1>
                     <p>Fullstack Developer</p>
                     <div class="introduction_socials">
-                        <a href="https://www.linkedin.com/in/vinicius-flesch-kern/" target="_blank">
+                        <a href="https://www.linkedin.com/in/vinicius-flesch-kern/" target="_blank" class="socials">
                             <img alt="Linkedin icon" src="../src/imgs/main/linkedin.svg">
                             <p>Linkedin</p>
                         </a>
-                        <a href="https://github.com/V-inn" target="_blank">
+                        <a href="https://github.com/V-inn" target="_blank" class="socials">
                             <img alt="Github icon" src="../src/imgs/main/github.svg">
                             <p>Github</p>
                         </a>
                     </div>
                 </div>
             </div>
-            <hr>
             <div class="content_div">
                 <h2>About me</h2>
                 <p>
@@ -165,7 +164,7 @@
         <section id="work">
             <hr>
             <div class="content_div">
-                <h2>Emprego</h2>
+                <h2>Jobs</h2>
                 <div>
                     <h3>Internship - Secretary of education of Vale do Sol, Rio grande do Sul - BR</h3>
                     <p><strong>(May 2023 - Currently)</strong></p>
@@ -178,17 +177,83 @@
             <div class="content_div">
                 <h2>Projects</h2>
                 <div class="project_div">
-                    <a href="./projects/LittleGame.html">
-                        <img alt="">
+                    <a href="https://github.com/V-inn/ESP-32-Tft-Display-Little-game" target="_blank">
+                        <img class="project_image" alt="Circuito com uma placa eletrônica e uma tela pequena" src="../src/imgs/projects/LittleGame380x250.avif">
                         <h3>LittleGame</h3>
+                        <p class="project_description">Mini console, based on esp32 micro controller and a tft lcd display.</p>
+                        <img class="project_link" alt="Github icon" src="../src/imgs/main/github.svg">
+                    </a>
+                    <!--
+                    <a href="" target="_blank">
+                        <img class="project_image" alt="Placeholder" src="../src/imgs/main/placeholder_Image.svg">
+                        <h3>Placeholder</h3>
+                        <p class="project_description">Placeholder</p>
+                        <img class="project_link" alt="Github icon" src="../src/imgs/main/placeholder_Image.svg"">
+                    </a>
+                    <a href="" target="_blank">
+                        <img class="project_image" alt="Placeholder" src="../src/imgs/main/placeholder_Image.svg"">
+                        <h3>Placeholder</h3>
+                        <p class="project_description">Placeholder</p>
+                        <img class="project_link" alt="Github icon" src="../src/imgs/main/placeholder_Image.svg"">
+                    </a>
+                    <a href="" target="_blank">
+                        <img class="project_image" alt="Placeholder" src="../src/imgs/main/placeholder_Image.svg"">
+                        <h3>Placeholder</h3>
+                        <p class="project_description">Placeholder</p>
+                        <img class="project_link" alt="Github icon" src="../src/imgs/main/placeholder_Image.svg"">
+                    </a> -->
+                </div>
+            </div>
+        </section>
+        <section id="awards">
+            <hr>
+            <div class="content_div">
+                <h2>Awards</h2>
+                <div class="awards_div">
+                    <a class="award" href="https://premiacao.obmep.org.br/18obmep/verRelatorioPremiadosBronze.do.htm" target="_blank">
+                        <img src="../src/imgs/main/awards/obmep2023.png" alt="logo obmep 2023">
+                        <p>Bronze medal on the 18th Brazillian Math Olympics of Public Schools</p>
+                    </a>
+                    <a class="award" href="https://premiacao.obmep.org.br/17obmep/verRelatorioPremiadosMencao-RS.3.do.htm" target="_blank">
+                        <img src="../src/imgs/main/awards/obmep2022.png" alt="logo obmep 2022">
+                        <p>Honorary mention certificate on the 17th Brazillian Math Olympics of Public Schools</p>
+                    </a>
+                    <a class="award" href="https://www.cmvs.rs.gov.br/noticia/homenagem-aos-alunos-destaques-do-ano-2021-10239" target="_blank">
+                        <img src="../src/imgs/main/awards/vale_do_sol.jpg" alt="brasão vale do sol">
+                        <p>Outstanding student award 2021</p>
+                    </a>
+                    <a class="award" href="https://premiacao.obmep.org.br/16aobmep/verRelatorioPremiadosMencao-RS.2.do.htm" target="_blank">
+                        <img src="../src/imgs/main/awards/obmep2021.png" alt="logo obmep 2021">
+                        <p>Honorary mention certificate on the 16th Brazillian Math Olympics of Public Schools</p>
                     </a>
                 </div>
             </div>
         </section>
         <section>
             <hr>
-            <h2>((Site still in progress))</h2>
+            <p>((Site still in progress))</p>
             <hr>
+        </section>
+        <section id="contact" class="footer">
+            <h2>Contact info</h2>
+            <div class="info">
+                <div class="info_field">
+                    <div>
+                        <h3>Whatsapp&nbsp;</h3>
+                        <img alt="whatsapp" src="../src/imgs/main/whatsapp.svg">
+                    </div>
+                    <p>+55 (51) 99550-4744</p>
+                </div>
+                <div class="info_field">
+                    <div>
+                        <h3>E-mail&nbsp;</h3>
+                        <img alt="email" src="../src/imgs/main/contact.svg">
+                    </div>
+                    <p>viniciusflesch1@gmail.com</p>
+                    <p>contato@viniciusfk.com</p>
+                </div>
+            </div>
+            <p class="copyrightNotice">Vinícius Flesch Kern &copy; 2024, All rights reserved</p>
         </section>
     </section>
 </body>
