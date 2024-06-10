@@ -5,256 +5,253 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Cache-Control" content="public, max-age=1000">
     <meta name="description" content="Fullstack developer with focus on Java Spring and Web">
-    <script defer src="../src/main.js"></script>
     <script defer src="../src/js_main/stackSelect.js"></script>
     <link rel="stylesheet" href="../src/style_main/style.css">
     <link rel="stylesheet" media='screen and (max-width: 600px)' href="../src/style_main/mobileStyle.css">
     <title>Vinicius Flesch Kern</title>
     <link rel="icon" href="../src/imgs/main/icon.svg" type="image/x-icon"/>
 </head>
-<body>
+<header>
     <nav class="header_section">
-        <button aria-label="Ver em Português" class="translate_icon" onclick="window.location='../pt-br/'"><img alt="Brazillian Flag" src="../src/imgs/main/flag-br.svg"></button>
-        <hr>
-        <button aria-label="Go to Introduction" onclick="document.getElementById('introduction').scrollIntoView();"><img alt="Introduction" src="../src/imgs/main/person.svg"></button>
-        <button aria-label="Go to Code Stacks" onclick="document.getElementById('stack').scrollIntoView();"><img alt="Code brackets" src="../src/imgs/main/code.svg"></button>
-        <button aria-label="Go to Work experience" onclick="document.getElementById('work').scrollIntoView();"><img alt="Work" src="../src/imgs/main/work.svg"></button>
-        <button aria-label="Go to Projects" onclick="document.getElementById('projects').scrollIntoView();"><img alt="Projects" src="../src/imgs/main/projects.svg"></button>
-        <button aria-label="Go to Awards" onclick="document.getElementById('awards').scrollIntoView();"><img alt="Awards" src="../src/imgs/main/badge.svg"></button>
-        <button aria-label="Go to Contact" onclick="document.getElementById('contact').scrollIntoView();"><img alt="Contact" src="../src/imgs/main/contact.svg"></button>
+        <div>
+            <button aria-label="Ver em Português" class="translate_icon" onclick="window.location='../pt-br/'"><img alt="Brazillian Flag" src="../src/imgs/main/flag-br.svg"></button>
+        </div>
+        <div>
+            <button aria-label="Go to Introduction" onclick="document.getElementById('introduction').scrollIntoView();"><img alt="Introduction" src="../src/imgs/main/person.svg"></button>
+            <button aria-label="Go to Code Stacks" onclick="document.getElementById('stack').scrollIntoView();"><img alt="Code brackets" src="../src/imgs/main/code.svg"></button>
+            <button aria-label="Go to Work experience" onclick="document.getElementById('work').scrollIntoView();"><img alt="Work" src="../src/imgs/main/work.svg"></button>
+            <button aria-label="Go to Projects" onclick="document.getElementById('projects').scrollIntoView();"><img alt="Projects" src="../src/imgs/main/projects.svg"></button>
+            <button aria-label="Go to Awards" onclick="document.getElementById('awards').scrollIntoView();"><img alt="Awards" src="../src/imgs/main/badge.svg"></button>
+            <button aria-label="Go to Contact" onclick="document.getElementById('contact').scrollIntoView();"><img alt="Contact" src="../src/imgs/main/contact.svg"></button>
+        </div>
     </nav>
-    <section class="body_section">
-        <section class="introduction" id="introduction">
-            <div class="introduction_header">
-                <img alt="Image of Vinícius Flesch Kern" 
-                    class="profile_image" src="../src/imgs/main/profile.avif" 
-                    srcset="
-                        ../src/imgs/main/profile-400w.avif 400w,
-                        ../src/imgs/main/profile-654w.avif 654w,
-                        ../src/imgs/main/profile-768w.avif 768w
-                    "
-                    src="../src/imgs/main/profile768w.avif"
-                >
+</header>
+<body>
+    <section class="introduction" id="introduction">
+        <div class="introduction_header">
+            <img alt="Image of Vinícius Flesch Kern" 
+                class="profile_image" src="../src/imgs/main/profile.avif" 
+                srcset="
+                    ../src/imgs/main/profile-400w.avif 400w,
+                    ../src/imgs/main/profile-654w.avif 654w,
+                    ../src/imgs/main/profile-768w.avif 768w
+                "
+                sizes="
+                    (min-width: 600px) 400px, 654px;
+                "
+                src="../src/imgs/main/profile768w.avif"
+            >
 
+            <div>
+                <h1>Vinícius Flesch Kern</h1>
+                <p>Fullstack Developer</p>
+                <div class="introduction_socials">
+                    <a href="https://www.linkedin.com/in/vinicius-flesch-kern/" target="_blank" class="socials">
+                        <img alt="Linkedin icon" src="../src/imgs/main/linkedin.svg">
+                        <p>Linkedin</p>
+                    </a>
+                    <a href="https://github.com/V-inn" target="_blank" class="socials">
+                        <img alt="Github icon" src="../src/imgs/main/github.svg">
+                        <p>Github</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="content_div">
+            <h2>About me</h2>
+            <p>
+                My name is Vinícius Flesch Kern, I'm a 17 year old high school student who loves programming, robots, and nature!
+            </p>
+            <p>
+                &emsp;As of now it has been 5 years since I have first touched my first "Hello World". At the start, I did some coding in Lua, but never got too focused on it, then later I started doing some web development courses that I found online for two or three years until I thought myself able to move on into more advanced topics such as back-end.
+            </p>
+            <p>
+                &emsp;At first I did some PHP courses, but to be honest, I really didn't like it so I decided to move on, which was when I found the Node.js which I did enjoy for some time but eventually decided to change languages once again. At one point whilst going on about my day I found some courses regarding Java from an institute of technology here from my state, and because Minecraft was one of my first ever computer games I had played, I always have had curiosity for Java, so I gave it a try, and that was it: I found my language of choice for Back-end development. Besides that I also learned some databases such as MySQL and PostrgreSQL as now I needed to store data for some of my apps.
+            </p>
+            <p>
+                &emsp;As I have mentioned that I like robots, it's necessary to say that in the breaks I had from web development, I picked up coding on Arduino, which was yet another wonderful experience: seeing the things you built come to life in the very front of you and you being able to handle them as howhever you designed, as opposed to just appearing on a screen. Together with that I also did some projects with the Esp32 due to it's compatibility with Arduino's language and much more powerful specifications compared to the Arduino Uno I had, which led to more advanced projects such as IoT devices.
+            </p>
+            <p>
+                &emsp;Regarding nature, I have always loved camping and staying outside, that's why at the age of 10 I joined my city's Scout Group where I learned a lot about ethics and how to handle myself in stressful situations.
+            </p>
+        </div>
+    </section>
+    <section id="stack">
+        <hr>
+        <div class="content_div">
+            <h2>Work Stack</h2>
+            <div class="stack_icons">
+                <button aria-label="Info about HTML" onclick="defineVisibility(0)">
+                    <img alt="Html" src="../src/imgs/main/stack_icons/html.svg">
+                </button>
+                <button aria-label="Info about CSS" onclick="defineVisibility(1)">
+                    <img alt="Css" src="../src/imgs/main/stack_icons/css-3.svg">
+                </button>
+                <button aria-label="Info about Javascript" onclick="defineVisibility(2)">
+                    <img alt="javascript" src="../src/imgs/main/stack_icons/javascript.svg">
+                </button>
+                <button aria-label="Info about Java" onclick="defineVisibility(3)">
+                    <img alt="java" src="../src/imgs/main/stack_icons/java.svg">
+                </button>
+                <button aria-label="Info about Spring" onclick="defineVisibility(4)">
+                    <img alt="spring" src="../src/imgs/main/stack_icons/spring.svg">
+                </button>
+                <button aria-label="Info about Docker" onclick="defineVisibility(5)">
+                    <img alt="docker" src="../src/imgs/main/stack_icons/docker.svg">
+                </button>
+                <button aria-label="Info about PostgreSQL" onclick="defineVisibility(6)">
+                    <img alt="PostrgreSQL" src="../src/imgs/main/stack_icons/postgresql.svg">
+                </button>
+                <button aria-label="Info about MySQL" onclick="defineVisibility(7)">
+                    <img alt="MySQL" src="../src/imgs/main/stack_icons/mysql.svg">
+                </button>
+                <button aria-label="Info about Arduino" onclick="defineVisibility(8)">
+                    <img alt="Arduino" src="../src/imgs/main/stack_icons/arduino.svg">
+                </button>
+            </div>
+            <div class="content_display" id="contentDisplay">
+                <div class="">
+                    <h3>HTML</h3>
+                    <p>
+                        Hability to structure pages correctly and efficiently, making them easily stylizable through CSS, purposeful and readable, making use of the known best practices, incorporating small load times and accessibility.
+                    </p>
+                </div>
+                <div class="invisible">
+                    <h3>CSS</h3>
+                    <p>
+                        Dynamic page design according to screen proportions, together with efficient use of classes and file organization, granting the pages a great look in any device.
+                    </p>
+                </div>
+                <div class="invisible">
+                    <h3>Javascript</h3>
+                    <p>
+                        Writting optimized client-side code for all purposes, ranging from even more stylization methods (such as parallax), to full client web-applications, and secure http back-end integration.
+                    </p>
+                </div>
+                <div class="invisible">
+                    <h3>Java</h3>
+                    <p>
+                        Coding highly mantainable Java code, making efficient use of polymorphism and readable code. Aswell as writting secure back-end code for servers, preventing various types of attacks.
+                    </p>
+                </div>
+                <div class="invisible">
+                    <h3>Spring</h3>
+                    <p>
+                        Use of the spring framework for creating resilient RESTFul APIs for integration with web-apps.
+                    </p>
+                </div>
+                <div class="invisible">
+                    <h3>Docker</h3>
+                    <p>
+                        Creating and Dockerizing apps for fast and easy deployment on cloud, providing high service disponibility and on-demand scalability, aswell as avoiding unexpected results from running in different machines.
+                    </p>
+                </div>
+                <div class="invisible">
+                    <h3>PostgreSQL</h3>
+                    <p>
+                        Managing data in a secure and fast manner, allowing for great integration with docker.
+                    </p>
+                </div>
+                <div class="invisible">
+                    <h3>MySQL</h3>
+                    <p>
+                        Managing data on the most widely used SQL database management system.
+                    </p>
+                </div>
+                <div class="invisible">
+                    <h3>Arduino</h3>
+                    <p>
+                        Creating custom hardware projects with optimized firmware based around Micro Controller Units such as Arduino and Esp, making possible automated systems and custom interfaces for various purposes, aswell as Internet of Things projects, for long range device to device communication.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="work">
+        <hr>
+        <div class="content_div">
+            <h2>Jobs</h2>
+            <div>
+                <h3>Internship - Secretary of education of Vale do Sol, Rio grande do Sul - BR</h3>
+                <p><strong>(May 2023 - Currently)</strong></p>
+                <p><strong>Activities: </strong>Office tasks; Installation and operation of sound equipment; Drone piloting.</p>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <hr>
+        <div class="content_div">
+            <h2>Projects</h2>
+            <div class="project_div">
+                <a href="https://github.com/V-inn/ESP-32-Tft-Display-Little-game" target="_blank">
+                    <img class="project_image" alt="Circuito com uma placa eletrônica e uma tela pequena" src="../src/imgs/projects/LittleGame380x250.avif">
+                    <h3>LittleGame</h3>
+                    <p class="project_description">Mini console, based on esp32 micro controller and a tft lcd display.</p>
+                    <img class="project_link" alt="Github icon" src="../src/imgs/main/github.svg">
+                </a>
+                <!--
+                <a href="" target="_blank">
+                    <img class="project_image" alt="Placeholder" src="../src/imgs/main/placeholder_Image.svg">
+                    <h3>Placeholder</h3>
+                    <p class="project_description">Placeholder</p>
+                    <img class="project_link" alt="Github icon" src="../src/imgs/main/placeholder_Image.svg"">
+                </a>
+                <a href="" target="_blank">
+                    <img class="project_image" alt="Placeholder" src="../src/imgs/main/placeholder_Image.svg"">
+                    <h3>Placeholder</h3>
+                    <p class="project_description">Placeholder</p>
+                    <img class="project_link" alt="Github icon" src="../src/imgs/main/placeholder_Image.svg"">
+                </a>
+                <a href="" target="_blank">
+                    <img class="project_image" alt="Placeholder" src="../src/imgs/main/placeholder_Image.svg"">
+                    <h3>Placeholder</h3>
+                    <p class="project_description">Placeholder</p>
+                    <img class="project_link" alt="Github icon" src="../src/imgs/main/placeholder_Image.svg"">
+                </a> -->
+            </div>
+        </div>
+    </section>
+    <section id="awards">
+        <hr>
+        <div class="content_div">
+            <h2>Awards</h2>
+            <div class="awards_div">
+                <a class="award" href="https://premiacao.obmep.org.br/18obmep/verRelatorioPremiadosBronze.do.htm" target="_blank">
+                    <img src="../src/imgs/main/awards/obmep2023.png" alt="logo obmep 2023">
+                    <p>Bronze medal on the 18th Brazillian Math Olympics of Public Schools</p>
+                </a>
+                <a class="award" href="https://premiacao.obmep.org.br/17obmep/verRelatorioPremiadosMencao-RS.3.do.htm" target="_blank">
+                    <img src="../src/imgs/main/awards/obmep2022.png" alt="logo obmep 2022">
+                    <p>Honorary mention certificate on the 17th Brazillian Math Olympics of Public Schools</p>
+                </a>
+                <a class="award" href="https://www.cmvs.rs.gov.br/noticia/homenagem-aos-alunos-destaques-do-ano-2021-10239" target="_blank">
+                    <img src="../src/imgs/main/awards/vale_do_sol.jpg" alt="brasão vale do sol">
+                    <p>Outstanding student award 2021</p>
+                </a>
+                <a class="award" href="https://premiacao.obmep.org.br/16aobmep/verRelatorioPremiadosMencao-RS.2.do.htm" target="_blank">
+                    <img src="../src/imgs/main/awards/obmep2021.png" alt="logo obmep 2021">
+                    <p>Honorary mention certificate on the 16th Brazillian Math Olympics of Public Schools</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <hr>
+</body>
+<footer id="contact" class="footer">
+    <h2>CONTACT INFO</h2>
+        <div class="info">
+            <div class="info_field">
+                <img alt="whatsapp" src="../src/imgs/main/whatsapp.svg">
+                <a href="https://wa.me/5551995504744">+55 (51) 99550-4744</a>
+            </div>
+            <div class="info_field">
+                <img alt="email" src="../src/imgs/main/contact.svg">
                 <div>
-                    <h1>Vinícius Flesch Kern</h1>
-                    <p>Fullstack Developer</p>
-                    <div class="introduction_socials">
-                        <a href="https://www.linkedin.com/in/vinicius-flesch-kern/" target="_blank" class="socials">
-                            <img alt="Linkedin icon" src="../src/imgs/main/linkedin.svg">
-                            <p>Linkedin</p>
-                        </a>
-                        <a href="https://github.com/V-inn" target="_blank" class="socials">
-                            <img alt="Github icon" src="../src/imgs/main/github.svg">
-                            <p>Github</p>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="content_div">
-                <h2>About me</h2>
-                <p>
-                    My name is Vinícius Flesch Kern, I'm a 17 year old high school student who loves programming, robots, and nature!
-                </p>
-                <p>
-                    &emsp;As of now it has been 5 years since I have first touched my first "Hello World". At the start, I did some coding in Lua, but never got too focused on it, then later I started doing some web development courses that I found online for two or three years until I thought myself able to move on into more advanced topics such as back-end.
-                </p>
-                <p>
-                    &emsp;At first I did some PHP courses, but to be honest, I really didn't like it so I decided to move on, which was when I found the Node.js which I did enjoy for some time but eventually decided to change languages once again. At one point whilst going on about my day I found some courses regarding Java from an institute of technology here from my state, and because Minecraft was one of my first ever computer games I had played, I always have had curiosity for Java, so I gave it a try, and that was it: I found my language of choice for Back-end development. Besides that I also learned some databases such as MySQL and PostrgreSQL as now I needed to store data for some of my apps.
-                </p>
-                <p>
-                    &emsp;As I have mentioned that I like robots, it's necessary to say that in the breaks I had from web development, I picked up coding on Arduino, which was yet another wonderful experience: seeing the things you built come to life in the very front of you and you being able to handle them as howhever you designed, as opposed to just appearing on a screen. Together with that I also did some projects with the Esp32 due to it's compatibility with Arduino's language and much more powerful specifications compared to the Arduino Uno I had, which led to more advanced projects such as IoT devices.
-                </p>
-                <p>
-                    &emsp;Regarding nature, I have always loved camping and staying outside, that's why at the age of 10 I joined my city's Scout Group where I learned a lot about ethics and how to handle myself in stressful situations.
-                </p>
-            </div>
-        </section>
-        <section id="stack">
-            <hr>
-            <div class="content_div">
-                <h2>Work Stack</h2>
-                <div class="stack_icons">
-                    <button aria-label="Info about HTML" onclick="defineVisibility(0)">
-                        <img alt="Html" src="../src/imgs/main/stack_icons/html.svg">
-                    </button>
-                    <button aria-label="Info about CSS" onclick="defineVisibility(1)">
-                        <img alt="Css" src="../src/imgs/main/stack_icons/css-3.svg">
-                    </button>
-                    <button aria-label="Info about Javascript" onclick="defineVisibility(2)">
-                        <img alt="javascript" src="../src/imgs/main/stack_icons/javascript.svg">
-                    </button>
-                    <button aria-label="Info about Java" onclick="defineVisibility(3)">
-                        <img alt="java" src="../src/imgs/main/stack_icons/java.svg">
-                    </button>
-                    <button aria-label="Info about Spring" onclick="defineVisibility(4)">
-                        <img alt="spring" src="../src/imgs/main/stack_icons/spring.svg">
-                    </button>
-                    <button aria-label="Info about Docker" onclick="defineVisibility(5)">
-                        <img alt="docker" src="../src/imgs/main/stack_icons/docker.svg">
-                    </button>
-                    <button aria-label="Info about PostgreSQL" onclick="defineVisibility(6)">
-                        <img alt="PostrgreSQL" src="../src/imgs/main/stack_icons/postgresql.svg">
-                    </button>
-                    <button aria-label="Info about MySQL" onclick="defineVisibility(7)">
-                        <img alt="MySQL" src="../src/imgs/main/stack_icons/mysql.svg">
-                    </button>
-                    <button aria-label="Info about Arduino" onclick="defineVisibility(8)">
-                        <img alt="Arduino" src="../src/imgs/main/stack_icons/arduino.svg">
-                    </button>
-                </div>
-                <div class="content_display" id="contentDisplay">
-                    <div class="">
-                        <h3>HTML</h3>
-                        <p>
-                            Hability to structure pages correctly and efficiently, making them easily stylizable through CSS, purposeful and readable, making use of the known best practices, incorporating small load times and accessibility.
-                        </p>
-                    </div>
-                    <div class="invisible">
-                        <h3>CSS</h3>
-                        <p>
-                            Dynamic page design according to screen proportions, together with efficient use of classes and file organization, granting the pages a great look in any device.
-                        </p>
-                    </div>
-                    <div class="invisible">
-                        <h3>Javascript</h3>
-                        <p>
-                            Writting optimized client-side code for all purposes, ranging from even more stylization methods (such as parallax), to full client web-applications, and secure http back-end integration.
-                        </p>
-                    </div>
-                    <div class="invisible">
-                        <h3>Java</h3>
-                        <p>
-                            Coding highly mantainable Java code, making efficient use of polymorphism and readable code. Aswell as writting secure back-end code for servers, preventing various types of attacks.
-                        </p>
-                    </div>
-                    <div class="invisible">
-                        <h3>Spring</h3>
-                        <p>
-                            Use of the spring framework for creating resilient RESTFul APIs for integration with web-apps.
-                        </p>
-                    </div>
-                    <div class="invisible">
-                        <h3>Docker</h3>
-                        <p>
-                            Creating and Dockerizing apps for fast and easy deployment on cloud, providing high service disponibility and on-demand scalability, aswell as avoiding unexpected results from running in different machines.
-                        </p>
-                    </div>
-                    <div class="invisible">
-                        <h3>PostgreSQL</h3>
-                        <p>
-                            Managing data in a secure and fast manner, allowing for great integration with docker.
-                        </p>
-                    </div>
-                    <div class="invisible">
-                        <h3>MySQL</h3>
-                        <p>
-                            Managing data on the most widely used SQL database management system.
-                        </p>
-                    </div>
-                    <div class="invisible">
-                        <h3>Arduino</h3>
-                        <p>
-                            Creating custom hardware projects with optimized firmware based around Micro Controller Units such as Arduino and Esp, making possible automated systems and custom interfaces for various purposes, aswell as Internet of Things projects, for long range device to device communication.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="work">
-            <hr>
-            <div class="content_div">
-                <h2>Jobs</h2>
-                <div>
-                    <h3>Internship - Secretary of education of Vale do Sol, Rio grande do Sul - BR</h3>
-                    <p><strong>(May 2023 - Currently)</strong></p>
-                    <p><strong>Activities: </strong>Office tasks; Installation and operation of sound equipment; Drone piloting.</p>
-                </div>
-            </div>
-        </section>
-        <section id="projects">
-            <hr>
-            <div class="content_div">
-                <h2>Projects</h2>
-                <div class="project_div">
-                    <a href="https://github.com/V-inn/ESP-32-Tft-Display-Little-game" target="_blank">
-                        <img class="project_image" alt="Circuito com uma placa eletrônica e uma tela pequena" src="../src/imgs/projects/LittleGame380x250.avif">
-                        <h3>LittleGame</h3>
-                        <p class="project_description">Mini console, based on esp32 micro controller and a tft lcd display.</p>
-                        <img class="project_link" alt="Github icon" src="../src/imgs/main/github.svg">
-                    </a>
-                    <!--
-                    <a href="" target="_blank">
-                        <img class="project_image" alt="Placeholder" src="../src/imgs/main/placeholder_Image.svg">
-                        <h3>Placeholder</h3>
-                        <p class="project_description">Placeholder</p>
-                        <img class="project_link" alt="Github icon" src="../src/imgs/main/placeholder_Image.svg"">
-                    </a>
-                    <a href="" target="_blank">
-                        <img class="project_image" alt="Placeholder" src="../src/imgs/main/placeholder_Image.svg"">
-                        <h3>Placeholder</h3>
-                        <p class="project_description">Placeholder</p>
-                        <img class="project_link" alt="Github icon" src="../src/imgs/main/placeholder_Image.svg"">
-                    </a>
-                    <a href="" target="_blank">
-                        <img class="project_image" alt="Placeholder" src="../src/imgs/main/placeholder_Image.svg"">
-                        <h3>Placeholder</h3>
-                        <p class="project_description">Placeholder</p>
-                        <img class="project_link" alt="Github icon" src="../src/imgs/main/placeholder_Image.svg"">
-                    </a> -->
-                </div>
-            </div>
-        </section>
-        <section id="awards">
-            <hr>
-            <div class="content_div">
-                <h2>Awards</h2>
-                <div class="awards_div">
-                    <a class="award" href="https://premiacao.obmep.org.br/18obmep/verRelatorioPremiadosBronze.do.htm" target="_blank">
-                        <img src="../src/imgs/main/awards/obmep2023.png" alt="logo obmep 2023">
-                        <p>Bronze medal on the 18th Brazillian Math Olympics of Public Schools</p>
-                    </a>
-                    <a class="award" href="https://premiacao.obmep.org.br/17obmep/verRelatorioPremiadosMencao-RS.3.do.htm" target="_blank">
-                        <img src="../src/imgs/main/awards/obmep2022.png" alt="logo obmep 2022">
-                        <p>Honorary mention certificate on the 17th Brazillian Math Olympics of Public Schools</p>
-                    </a>
-                    <a class="award" href="https://www.cmvs.rs.gov.br/noticia/homenagem-aos-alunos-destaques-do-ano-2021-10239" target="_blank">
-                        <img src="../src/imgs/main/awards/vale_do_sol.jpg" alt="brasão vale do sol">
-                        <p>Outstanding student award 2021</p>
-                    </a>
-                    <a class="award" href="https://premiacao.obmep.org.br/16aobmep/verRelatorioPremiadosMencao-RS.2.do.htm" target="_blank">
-                        <img src="../src/imgs/main/awards/obmep2021.png" alt="logo obmep 2021">
-                        <p>Honorary mention certificate on the 16th Brazillian Math Olympics of Public Schools</p>
-                    </a>
-                </div>
-            </div>
-        </section>
-        <section>
-            <hr>
-            <p>((Site still in progress))</p>
-            <hr>
-        </section>
-        <section id="contact" class="footer">
-            <h2>Contact info</h2>
-            <div class="info">
-                <div class="info_field">
-                    <div>
-                        <h3>Whatsapp&nbsp;</h3>
-                        <img alt="whatsapp" src="../src/imgs/main/whatsapp.svg">
-                    </div>
-                    <p>+55 (51) 99550-4744</p>
-                </div>
-                <div class="info_field">
-                    <div>
-                        <h3>E-mail&nbsp;</h3>
-                        <img alt="email" src="../src/imgs/main/contact.svg">
-                    </div>
                     <p>viniciusflesch1@gmail.com</p>
                     <p>contato@viniciusfk.com</p>
                 </div>
             </div>
-            <p class="copyrightNotice">Vinícius Flesch Kern &copy; 2024, All rights reserved</p>
-        </section>
-    </section>
-</body>
+        </div>
+        <p class="copyrightNotice">Vinícius Flesch Kern &copy; 2024, All rights reserved</p>
+</footer>
 </html>
