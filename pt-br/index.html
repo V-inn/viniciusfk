@@ -5,256 +5,256 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Cache-Control" content="public, max-age=1000">
     <meta name="description" content="Desenvolvedor Fullstack com foco em Java Spring e Web">
-    <script defer src="../src/main.js"></script>
     <script defer src="../src/js_main/stackSelect.js"></script>
     <link rel="stylesheet" href="../src/style_main/style.css">
     <link rel="stylesheet" media='screen and (max-width: 600px)' href="../src/style_main/mobileStyle.css">
     <title>Vinicius Flesch Kern</title>
     <link rel="icon" href="../src/imgs/main/icon.svg" type="image/x-icon"/>
 </head>
-<body>
-    <nav class="header_section">
-        <button aria-label="View in English" class="translate_icon" onclick="window.location='../en/'"><img alt="Bandeira dos Estados Unidos" src="../src/imgs/main/flag-us.svg"></button>
-        <hr>
-        <button aria-label="Ir para introdução" onclick="document.getElementById('introduction').scrollIntoView();"><img alt="Introdução" src="../src/imgs/main/person.svg"></button>
-        <button aria-label="Ir para Code Stacks" onclick="document.getElementById('stack').scrollIntoView();"><img alt="Setas de código" src="../src/imgs/main/code.svg"></button>
-        <button aria-label="Ir para experiencia de trabalho" onclick="document.getElementById('work').scrollIntoView();"><img alt="trabalho" src="../src/imgs/main/work.svg"></button>
-        <button aria-label="Ir para projetos" onclick="document.getElementById('projects').scrollIntoView();"><img alt="projetos" src="../src/imgs/main/projects.svg"></button>
-        <button aria-label="Ir para prêmios" onclick="document.getElementById('awards').scrollIntoView();"><img alt="prêmios" src="../src/imgs/main/badge.svg"></button>
-        <button aria-label="Ir para contato" onclick="document.getElementById('contact').scrollIntoView();"><img alt="contato" src="../src/imgs/main/contact.svg"></button>
+<header>
+    <nav class="header_section" id="headerSection">
+        <div>
+            <button aria-label="View in English" class="translate_icon" onclick="window.location='../en/'"><img alt="Bandeira dos Estados Unidos" src="../src/imgs/main/flag-us.svg"></button>
+        </div>
+        <div>
+            <button aria-label="Ir para introdução" onclick="document.getElementById('introduction').scrollIntoView();"><img alt="Introdução" src="../src/imgs/main/person.svg"></button>
+            <button aria-label="Ir para Code Stacks" onclick="document.getElementById('stack').scrollIntoView();"><img alt="Setas de código" src="../src/imgs/main/code.svg"></button>
+            <button aria-label="Ir para experiencia de trabalho" onclick="document.getElementById('work').scrollIntoView();"><img alt="trabalho" src="../src/imgs/main/work.svg"></button>
+            <button aria-label="Ir para projetos" onclick="document.getElementById('projects').scrollIntoView();"><img alt="projetos" src="../src/imgs/main/projects.svg"></button>
+            <button aria-label="Ir para prêmios" onclick="document.getElementById('awards').scrollIntoView();"><img alt="prêmios" src="../src/imgs/main/badge.svg"></button>
+            <button aria-label="Ir para contato" onclick="document.getElementById('contact').scrollIntoView();"><img alt="contato" src="../src/imgs/main/contact.svg"></button>
+        </div>
     </nav>
-    <section class="body_section">
-        <section class="introduction" id="introduction">
-            <div class="introduction_header">
-                <img alt="Imagem de Vinícius Flesch Kern" 
-                    class="profile_image" src="../src/imgs/main/profile.avif" 
-                    srcset="
-                        ../src/imgs/main/profile-400w.avif 400w,
-                        ../src/imgs/main/profile-654w.avif 654w,
-                        ../src/imgs/main/profile-768w.avif 768w
-                    "
-                    src="../src/imgs/main/profile768w.avif"
-                >
-
+</header>
+<body class="body_section">
+    <section class="introduction" id="introduction">
+        <div class="introduction_header">
+            <img alt="Imagem de Vinícius Flesch Kern" 
+                class="profile_image" src="../src/imgs/main/profile.avif" 
+                srcset="
+                    ../src/imgs/main/profile-400w.avif 400w,
+                    ../src/imgs/main/profile-654w.avif 654w,
+                    ../src/imgs/main/profile-768w.avif 768w
+                "
+                sizes="
+                    (min-width: 600px) 400px, 654px;
+                "
+                src="../src/imgs/main/profile768w.avif"
+            >
+            <div>
+                <h1>Vinícius Flesch Kern</h1>
+                <p>Desenvolvedor Fullstack</p>
+                <div class="introduction_socials">
+                    <a href="https://www.linkedin.com/in/vinicius-flesch-kern/" target="_blank" class="socials">
+                        <img alt="Linkedin icon" src="../src/imgs/main/linkedin.svg">
+                        <p>Linkedin</p>
+                    </a>
+                    <a href="https://github.com/V-inn" target="_blank" class="socials">
+                        <img alt="Github icon" src="../src/imgs/main/github.svg">
+                        <p>Github</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="content_div">
+            <h2>Sobre mim</h2>
+            <p>
+                &emsp;Meu nome é Vinícius Flesch Kern, tenho 17 anos, sou aluno do Ensino Médio e atuo como estagiário na Secretaria de Educação Cultura e Desporto, na cidade de Vale do Sol - Rio Grande do Sul, e sou uma pessoa que adora programação, robôs e natureza!
+            </p>
+            <p>
+                &emsp;Já se passaram 5 anos desde que executei meu primeiro "Hello World". No início, fiz um pouco da linguagem Lua no Roblox, mas nunca me dediquei muito à isso. Depois comecei a fazer alguns cursos de desenvolvimento web que encontrei online, e posteriormente estudei alguns tópicos mais avançados, como back-end.
+            </p>
+            <p>
+                &emsp;Estudei também PHP, no entanto procurei me aprofundar em outras linguagens. Estudei então Node.js, linguagem que gostei por algum tempo, mas acabei decidindo mudar de linguagem mais uma vez. Após, com o surgimento de uma oportunidade oferecida pelo Instituto Caldeira, me dediquei ao estudo de Java - a qual mantenho meus estudos ainda hoje -, pois esta, sempre foi de minha curiosidade desde a infância, por ser a primeira coisa que era vista quando se abria Minecraft.
+            </p>
+            <p>
+                &emsp;Como mencionado, gosto de robôs. Portanto é preciso dizer que nos intervalos que tive no desenvolvimento web, aprendi a programar em Arduino, e foi mais uma experiência maravilhosa: ver as coisas que você construiu ganhando vida e ser capaz de interagir com elas da maneira que projetou. É gratificante.
+            </p>
+            <p>
+                &emsp;Além disso também fiz alguns projetos utilizando Esp32 devido à sua compatibilidade com a linguagem do Arduino e especificações poderosas em comparação com o Arduino Uno que eu tinha, subsequentemente resultando em projetos mais complexos.
+            </p>
+            <p>
+                &emsp;Em relação à natureza, sempre adorei acampar e ficar ao ar livre, por isso aos 10 anos entrei no Grupo Escoteiro de Vale do Sol, em que aprendi muito sobre ética e como me comportar em situações estressantes.
+            </p>
+        </div>
+    </section>
+    <section id="stack">
+        <hr>
+        <div class="content_div">
+            <h2>Stack de Trabalho</h2>
+            <div class="stack_icons">
+                <button aria-label="Informações sobre HTML" onclick="defineVisibility(0)">
+                    <img alt="Html" src="../src/imgs/main/stack_icons/html.svg">
+                </button>
+                <button aria-label="Informações sobre CSS" onclick="defineVisibility(1)">
+                    <img alt="Css" src="../src/imgs/main/stack_icons/css-3.svg">
+                </button>
+                <button aria-label="Informações sobre Javascript" onclick="defineVisibility(2)">
+                    <img alt="javascript" src="../src/imgs/main/stack_icons/javascript.svg">
+                </button>
+                <button aria-label="Informações sobre Java" onclick="defineVisibility(3)">
+                    <img alt="java" src="../src/imgs/main/stack_icons/java.svg">
+                </button>
+                <button aria-label="Informações sobre Spring" onclick="defineVisibility(4)">
+                    <img alt="spring" src="../src/imgs/main/stack_icons/spring.svg">
+                </button>
+                <button aria-label="Informações sobre Docker" onclick="defineVisibility(5)">
+                    <img alt="docker" src="../src/imgs/main/stack_icons/docker.svg">
+                </button>
+                <button aria-label="Informações sobre PostgreSQL" onclick="defineVisibility(6)">
+                    <img alt="PostrgreSQL" src="../src/imgs/main/stack_icons/postgresql.svg">
+                </button>
+                <button aria-label="Informações sobre MySQL" onclick="defineVisibility(7)">
+                    <img alt="MySQL" src="../src/imgs/main/stack_icons/mysql.svg">
+                </button>
+                <button aria-label="Informações sobre Arduino" onclick="defineVisibility(8)">
+                    <img alt="Arduino" src="../src/imgs/main/stack_icons/arduino.svg">
+                </button>
+            </div>
+            <div class="content_display" id="contentDisplay">
+                <div class="">
+                    <h3>HTML</h3>
+                    <p>
+                        Capacidade de estruturar páginas de forma correta e eficiente, tornando-as facilmente estilizáveis através de CSS, propositais, e legíveis, fazendo uso de boas práticas, garantindo pequenos tempos de carregamento, além de acessibilidade.
+                    </p>
+                </div>
+                <div class="invisible">
+                    <h3>CSS</h3>
+                    <p>
+                        Design dinâmico de páginas de acordo com as proporções da tela, aliado ao uso eficiente de classes e organização de arquivos, conferindo às páginas uma ótima aparência em qualquer dispositivo.
+                    </p>
+                </div>
+                <div class="invisible">
+                    <h3>Javascript</h3>
+                    <p>
+                        Escrever código otimizado do lado do cliente para todos os propósitos, desde mais métodos de estilização (como paralaxe), até aplicativos web de cliente completos e integração segura de back-end via http.
+                    </p>
+                </div>
+                <div class="invisible">
+                    <h3>Java</h3>
+                    <p>
+                        Programação de código Java altamente sustentável, fazendo uso eficiente de polimorfismo e código legível. Além de escrever código back-end seguro para servidores, evitando diversos tipos de ataques.
+                    </p>
+                </div>
+                <div class="invisible">
+                    <h3>Spring</h3>
+                    <p>
+                        Uso do framework Spring para criação de APIs RESTFul resilientes para integração com aplicativos web.
+                    </p>
+                </div>
+                <div class="invisible">
+                    <h3>Docker</h3>
+                    <p>
+                        Criação e Dockerização de apps para implantação rápida e fácil na nuvem, proporcionando alta disponibilidade de serviços e escalabilidade sob demanda, além de evitar resultados inesperados durante a execução em diferentes máquinas.
+                    </p>
+                </div>
+                <div class="invisible">
+                    <h3>PostgreSQL</h3>
+                    <p>
+                        Gerenciando dados de forma segura e rápida, permitindo ótima integração com Docker.
+                    </p>
+                </div>
+                <div class="invisible">
+                    <h3>MySQL</h3>
+                    <p>
+                        Gerenciando dados no sistema de gerenciamento de banco de dados SQL mais utilizado.
+                    </p>
+                </div>
+                <div class="invisible">
+                    <h3>Arduino</h3>
+                    <p>
+                        Criação de projetos de hardware customizados baseados em unidades de microcontroladores como Arduino e Esp  criando também firmware otimizado, possibilitando sistemas automatizados e interfaces customizadas para diversos fins, bem como projetos de Internet das Coisas, para comunicação dispositivo a dispositivo de longo alcance.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="work">
+        <hr>
+        <div class="content_div">
+            <h2>Emprego</h2>
+            <div>
+                <h3>Estágio - Secretaria Municipal de Educação de Vale do Sol</h3>
+                <p><strong>(Maio 2023 - Atualmente)</strong></p>
+                <p><strong>Atividades: </strong>Tarefas de escritório; Instalação e operação de equipamentos de som; Pilotagem de drone.</p>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <hr>
+        <div class="content_div">
+            <h2>Projetos</h2>
+            <div class="project_div">
+                <a href="https://github.com/V-inn/ESP-32-Tft-Display-Little-game" target="_blank">
+                    <img class="project_image" alt="Circuito com uma placa eletrônica e uma tela pequena" src="../src/imgs/projects/LittleGame380x250.avif">
+                    <h3>LittleGame</h3>
+                    <p class="project_description">Mini console baseado no micro controlador esp-32 e um display lcd tft.</p>
+                    <img class="project_link" alt="Github icon" src="../src/imgs/main/github.svg">
+                </a>
+                <!--
+                <a href="" target="_blank">
+                    <img class="project_image" alt="Placeholder" src="../src/imgs/main/placeholder_Image.svg">
+                    <h3>Placeholder</h3>
+                    <p class="project_description">Placeholder</p>
+                    <img class="project_link" alt="Github icon" src="../src/imgs/main/placeholder_Image.svg"">
+                </a>
+                <a href="" target="_blank">
+                    <img class="project_image" alt="Placeholder" src="../src/imgs/main/placeholder_Image.svg"">
+                    <h3>Placeholder</h3>
+                    <p class="project_description">Placeholder</p>
+                    <img class="project_link" alt="Github icon" src="../src/imgs/main/placeholder_Image.svg"">
+                </a>
+                <a href="" target="_blank">
+                    <img class="project_image" alt="Placeholder" src="../src/imgs/main/placeholder_Image.svg"">
+                    <h3>Placeholder</h3>
+                    <p class="project_description">Placeholder</p>
+                    <img class="project_link" alt="Github icon" src="../src/imgs/main/placeholder_Image.svg"">
+                </a> -->
+            </div>
+        </div>
+    </section>
+    <section id="awards">
+        <hr>
+        <div class="content_div">
+            <h2>Prêmios</h2>
+            <div class="awards_div">
+                <a class="award" href="https://premiacao.obmep.org.br/18obmep/verRelatorioPremiadosBronze.do.htm" target="_blank">
+                    <img src="../src/imgs/main/awards/obmep2023.png" alt="logo obmep 2023">
+                    <p>Medalha de Bronze Nacional na 18º Olimpiada Brasileira de Matemática das Escolas Públicas</p>
+                </a>
+                <a class="award" href="https://premiacao.obmep.org.br/17obmep/verRelatorioPremiadosMencao-RS.3.do.htm" target="_blank">
+                    <img src="../src/imgs/main/awards/obmep2022.png" alt="logo obmep 2022">
+                    <p>Certificado de menção honrosa na 17º Olimpiada Brasileira de Matemática das Escolas Públicas</p>
+                </a>
+                <a class="award" href="https://www.cmvs.rs.gov.br/noticia/homenagem-aos-alunos-destaques-do-ano-2021-10239" target="_blank">
+                    <img src="../src/imgs/main/awards/vale_do_sol.jpg" alt="brasão vale do sol">
+                    <p>Prêmio de aluno destaque 2021</p>
+                </a>
+                <a class="award" href="https://premiacao.obmep.org.br/16aobmep/verRelatorioPremiadosMencao-RS.2.do.htm" target="_blank">
+                    <img src="../src/imgs/main/awards/obmep2021.png" alt="logo obmep 2021">
+                    <p>Certificado de menção honrosa na 16º Olimpiada Brasileira de Matemática das Escolas Públicas</p>
+                </a>
+            </div>
+        </div>
+        <hr>
+    </section>
+</body>
+<footer id="contact" class="footer">
+    <h2>INFORMAÇÕES DE CONTATO</h2>
+        <div class="info">
+            <div class="info_field">
+                <img alt="whatsapp" src="../src/imgs/main/whatsapp.svg">
+                <a href="https://wa.me/5551995504744">+55 (51) 99550-4744</a>
+            </div>
+            <div class="info_field">
+                <img alt="email" src="../src/imgs/main/contact.svg">
                 <div>
-                    <h1>Vinícius Flesch Kern</h1>
-                    <p>Desenvolvedor Fullstack</p>
-                    <div class="introduction_socials">
-                        <a href="https://www.linkedin.com/in/vinicius-flesch-kern/" target="_blank" class="socials">
-                            <img alt="Linkedin icon" src="../src/imgs/main/linkedin.svg">
-                            <p>Linkedin</p>
-                        </a>
-                        <a href="https://github.com/V-inn" target="_blank" class="socials">
-                            <img alt="Github icon" src="../src/imgs/main/github.svg">
-                            <p>Github</p>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="content_div">
-                <h2>Sobre mim</h2>
-                <p>
-                    Meu nome é Vinícius Flesch Kern, tenho 17 anos, sou aluno do Ensino Médio que adora programação, robôs e natureza!
-                </p>
-                <p>
-                    &emsp;Já se passaram 5 anos desde que executei meu primeiro "Hello World". No início, fiz um pouco de programação em Lua no Roblox, mas nunca me dediquei muito à isso, depois comecei a fazer alguns cursos de desenvolvimento web que encontrei online por dois ou três anos, até me achar capaz de seguir em frente para alguns tópicos mais avançados, como back-end.
-                </p>
-                <p>
-                    &emsp;No começo fiz alguns cursos de PHP, mas para ser sincero, não gostei muito então decidi seguir em frente, foi quando encontrei o Node.js que gostei por algum tempo, mas acabei decidindo mudar de linguagem mais uma vez. então novamente, algum dia, encontrei alguns cursos sobre Java de um instituto de tecnologia aqui do meu estado, e como Minecraft foi um dos primeiros jogos de computador que joguei, sempre tive um pouco de curiosidade por Java, então tentei e pronto: encontrei minha linguagem preferida para desenvolvimento de back-end. Além disso também aprendi alguns bancos de dados como MySQL e PostrgreSQL, pois agora precisava armazenar dados para alguns de meus aplicativos.
-                </p>
-                <p>
-                    &emsp;Como mencionei que gosto de robôs, é preciso dizer que nos intervalos que tive no desenvolvimento web, aprendi a programar em Arduino, o que foi mais uma experiência maravilhosa: ver as coisas que você construiu ganhando vida bem na sua frente e você ser capaz de interagir com elas da maneira que projetou, em vez de apenas vê-las por uma tela. Além com isso também fiz alguns projetos com o Esp32 devido à sua compatibilidade com a linguagem do Arduino e especificações muito mais poderosas em comparação com o Arduino Uno que eu tinha, o que levou a alguns projetos mais avançados.
-                </p>
-                <p>
-                    &emsp;Em relação à natureza, sempre adorei acampar e ficar ao ar livre, por isso aos 10 anos entrei no Grupo Escoteiro de minha cidade onde aprendi muito sobre ética e como me comportar em situações estressantes.
-                </p>
-            </div>
-        </section>
-        <section id="stack">
-            <hr>
-            <div class="content_div">
-                <h2>Stack de Trabalho</h2>
-                <div class="stack_icons">
-                    <button aria-label="Informações sobre HTML" onclick="defineVisibility(0)">
-                        <img alt="Html" src="../src/imgs/main/stack_icons/html.svg">
-                    </button>
-                    <button aria-label="Informações sobre CSS" onclick="defineVisibility(1)">
-                        <img alt="Css" src="../src/imgs/main/stack_icons/css-3.svg">
-                    </button>
-                    <button aria-label="Informações sobre Javascript" onclick="defineVisibility(2)">
-                        <img alt="javascript" src="../src/imgs/main/stack_icons/javascript.svg">
-                    </button>
-                    <button aria-label="Informações sobre Java" onclick="defineVisibility(3)">
-                        <img alt="java" src="../src/imgs/main/stack_icons/java.svg">
-                    </button>
-                    <button aria-label="Informações sobre Spring" onclick="defineVisibility(4)">
-                        <img alt="spring" src="../src/imgs/main/stack_icons/spring.svg">
-                    </button>
-                    <button aria-label="Informações sobre Docker" onclick="defineVisibility(5)">
-                        <img alt="docker" src="../src/imgs/main/stack_icons/docker.svg">
-                    </button>
-                    <button aria-label="Informações sobre PostgreSQL" onclick="defineVisibility(6)">
-                        <img alt="PostrgreSQL" src="../src/imgs/main/stack_icons/postgresql.svg">
-                    </button>
-                    <button aria-label="Informações sobre MySQL" onclick="defineVisibility(7)">
-                        <img alt="MySQL" src="../src/imgs/main/stack_icons/mysql.svg">
-                    </button>
-                    <button aria-label="Informações sobre Arduino" onclick="defineVisibility(8)">
-                        <img alt="Arduino" src="../src/imgs/main/stack_icons/arduino.svg">
-                    </button>
-                </div>
-                <div class="content_display" id="contentDisplay">
-                    <div class="">
-                        <h3>HTML</h3>
-                        <p>
-                            Capacidade de estruturar páginas de forma correta e eficiente, tornando-as facilmente estilizáveis através de CSS, propositais, e legíveis, fazendo uso de boas práticas, garantindo pequenos tempos de carregamento, além de acessibilidade.
-                        </p>
-                    </div>
-                    <div class="invisible">
-                        <h3>CSS</h3>
-                        <p>
-                            Design dinâmico de páginas de acordo com as proporções da tela, aliado ao uso eficiente de classes e organização de arquivos, conferindo às páginas uma ótima aparência em qualquer dispositivo.
-                        </p>
-                    </div>
-                    <div class="invisible">
-                        <h3>Javascript</h3>
-                        <p>
-                            Escrever código otimizado do lado do cliente para todos os propósitos, desde mais métodos de estilização (como paralaxe), até aplicativos web de cliente completos e integração segura de back-end via http.
-                        </p>
-                    </div>
-                    <div class="invisible">
-                        <h3>Java</h3>
-                        <p>
-                            Programação de código Java altamente sustentável, fazendo uso eficiente de polimorfismo e código legível. Além de escrever código back-end seguro para servidores, evitando diversos tipos de ataques.
-                        </p>
-                    </div>
-                    <div class="invisible">
-                        <h3>Spring</h3>
-                        <p>
-                            Uso do framework Spring para criação de APIs RESTFul resilientes para integração com aplicativos web.
-                        </p>
-                    </div>
-                    <div class="invisible">
-                        <h3>Docker</h3>
-                        <p>
-                            Criação e Dockerização de apps para implantação rápida e fácil na nuvem, proporcionando alta disponibilidade de serviços e escalabilidade sob demanda, além de evitar resultados inesperados durante a execução em diferentes máquinas.
-                        </p>
-                    </div>
-                    <div class="invisible">
-                        <h3>PostgreSQL</h3>
-                        <p>
-                            Gerenciando dados de forma segura e rápida, permitindo ótima integração com Docker.
-                        </p>
-                    </div>
-                    <div class="invisible">
-                        <h3>MySQL</h3>
-                        <p>
-                            Gerenciando dados no sistema de gerenciamento de banco de dados SQL mais utilizado.
-                        </p>
-                    </div>
-                    <div class="invisible">
-                        <h3>Arduino</h3>
-                        <p>
-                            Criação de projetos de hardware customizados baseados em unidades de microcontroladores como Arduino e Esp  criando também firmware otimizado, possibilitando sistemas automatizados e interfaces customizadas para diversos fins, bem como projetos de Internet das Coisas, para comunicação dispositivo a dispositivo de longo alcance.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="work">
-            <hr>
-            <div class="content_div">
-                <h2>Emprego</h2>
-                <div>
-                    <h3>Estágio - Secretaria Municipal de Educação de Vale do Sol</h3>
-                    <p><strong>(Maio 2023 - Atualmente)</strong></p>
-                    <p><strong>Atividades: </strong>Tarefas de escritório; Instalação e operação de equipamentos de som; Pilotagem de drone.</p>
-                </div>
-            </div>
-        </section>
-        <section id="projects">
-            <hr>
-            <div class="content_div">
-                <h2>Projetos</h2>
-                <div class="project_div">
-                    <a href="https://github.com/V-inn/ESP-32-Tft-Display-Little-game" target="_blank">
-                        <img class="project_image" alt="Circuito com uma placa eletrônica e uma tela pequena" src="../src/imgs/projects/LittleGame380x250.avif">
-                        <h3>LittleGame</h3>
-                        <p class="project_description">Mini console baseado no micro controlador esp-32 e um display lcd tft.</p>
-                        <img class="project_link" alt="Github icon" src="../src/imgs/main/github.svg">
-                    </a>
-                    <!--
-                    <a href="" target="_blank">
-                        <img class="project_image" alt="Placeholder" src="../src/imgs/main/placeholder_Image.svg">
-                        <h3>Placeholder</h3>
-                        <p class="project_description">Placeholder</p>
-                        <img class="project_link" alt="Github icon" src="../src/imgs/main/placeholder_Image.svg"">
-                    </a>
-                    <a href="" target="_blank">
-                        <img class="project_image" alt="Placeholder" src="../src/imgs/main/placeholder_Image.svg"">
-                        <h3>Placeholder</h3>
-                        <p class="project_description">Placeholder</p>
-                        <img class="project_link" alt="Github icon" src="../src/imgs/main/placeholder_Image.svg"">
-                    </a>
-                    <a href="" target="_blank">
-                        <img class="project_image" alt="Placeholder" src="../src/imgs/main/placeholder_Image.svg"">
-                        <h3>Placeholder</h3>
-                        <p class="project_description">Placeholder</p>
-                        <img class="project_link" alt="Github icon" src="../src/imgs/main/placeholder_Image.svg"">
-                    </a> -->
-                </div>
-            </div>
-        </section>
-        <section id="awards">
-            <hr>
-            <div class="content_div">
-                <h2>Prêmios</h2>
-                <div class="awards_div">
-                    <a class="award" href="https://premiacao.obmep.org.br/18obmep/verRelatorioPremiadosBronze.do.htm" target="_blank">
-                        <img src="../src/imgs/main/awards/obmep2023.png" alt="logo obmep 2023">
-                        <p>Medalha de Bronze Nacional na 18º Olimpiada Brasileira de Matemática das Escolas Públicas</p>
-                    </a>
-                    <a class="award" href="https://premiacao.obmep.org.br/17obmep/verRelatorioPremiadosMencao-RS.3.do.htm" target="_blank">
-                        <img src="../src/imgs/main/awards/obmep2022.png" alt="logo obmep 2022">
-                        <p>Certificado de menção honrosa na 17º Olimpiada Brasileira de Matemática das Escolas Públicas</p>
-                    </a>
-                    <a class="award" href="https://www.cmvs.rs.gov.br/noticia/homenagem-aos-alunos-destaques-do-ano-2021-10239" target="_blank">
-                        <img src="../src/imgs/main/awards/vale_do_sol.jpg" alt="brasão vale do sol">
-                        <p>Prêmio de aluno destaque 2021</p>
-                    </a>
-                    <a class="award" href="https://premiacao.obmep.org.br/16aobmep/verRelatorioPremiadosMencao-RS.2.do.htm" target="_blank">
-                        <img src="../src/imgs/main/awards/obmep2021.png" alt="logo obmep 2021">
-                        <p>Certificado de menção honrosa na 16º Olimpiada Brasileira de Matemática das Escolas Públicas</p>
-                    </a>
-                </div>
-            </div>
-        </section>
-        <section>
-            <hr>
-            <p>((Site ainda em progresso))</p>
-            <hr>
-        </section>
-        <section id="contact" class="footer">
-            <h2>Informações de contato</h2>
-            <div class="info">
-                <div class="info_field">
-                    <div>
-                        <h3>Whatsapp&nbsp;</h3>
-                        <img alt="whatsapp" src="../src/imgs/main/whatsapp.svg">
-                    </div>
-                    <p>+55 (51) 99550-4744</p>
-                </div>
-                <div class="info_field">
-                    <div>
-                        <h3>E-mail&nbsp;</h3>
-                        <img alt="email" src="../src/imgs/main/contact.svg">
-                    </div>
                     <p>viniciusflesch1@gmail.com</p>
                     <p>contato@viniciusfk.com</p>
                 </div>
             </div>
-            <p class="copyrightNotice">Vinícius Flesch Kern &copy; 2024, Todos os direitos reservados</p>
-        </section>
-    </section>
-</body>
+        </div>
+        <p class="copyrightNotice">Vinícius Flesch Kern &copy; 2024, Todos os direitos reservados</p>
+</footer>
 </html>

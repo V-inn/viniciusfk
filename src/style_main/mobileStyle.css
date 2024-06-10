@@ -85,7 +85,7 @@
 
     .project_div a{
         min-width: 90%;
-        min-height: 500px;
+        min-height: 450px;
     }
 
     .project_link{
@@ -93,17 +93,30 @@
         height: 40px;
     }
 
+    .awards_div{
+        justify-content: center;
+    }
+
+    .award{
+        min-width: 300px;
+        aspect-ratio: 1/0.7;
+    }
+
     section.footer{
-        padding: 0;
-    
+        padding: 20px 0;
+    }
+
+    .info{
+        flex-direction: column;
+    }
+
+    .info_field{
+        flex-direction: row;
+        margin-bottom: 10px;
     }
 
     .info_field img{
         width: 1.2rem;
-    }
-
-    .info_field h3{
-        font-size: 0.9rem;
     }
 
     .info_field p{
